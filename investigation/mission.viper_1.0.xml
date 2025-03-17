@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:mission.viper</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Volatiles Investigating Polar Exploration Rover (VIPER)</title>
+        <information_model_version>1.19.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_title>VIPER</alternate_title>
+                <comment>Volatiles Investigating Polar Exploration Rover mission name</comment>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2025-03-17</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+    </Reference_List>
+    <Investigation>
+        <name>Volatiles Investigating Polar Exploration Rover</name>
+        <type>Mission</type>
+        <start_date>2025</start_date>
+        <stop_date>2025</stop_date>
+        <description>
+            The VIPER mission, short for Volatiles Investigating Polar Exploration Rover, 
+            is a NASA initiative designed to explore the Moon's south pole. This robotic 
+            rover aims to locate and analyze water ice and other resources trapped in the 
+            lunar soil. By studying these materials, VIPER plans to help scientists understand 
+            the distribution, composition, and accessibility of lunar resources, which could 
+            support future human exploration. VIPER will operate in some of the coldest and 
+            darkest regions of the Moon, known as permanently shadowed craters, where water
+            ice has been preserved for billions of years. The rover is about the
+            size of a golf cart and is designed to traverse several miles during its 
+            original 100-day mission.
+            
+            The VIPER mission faced delays due to a combination of factors, including the need 
+            for additional preflight testing and supply chain challenges. Initially planned for 
+            a late 2023 launch, the mission was postponed to late 2024 to allow more time for 
+            testing the Astrobotic Griffin lander, which was to carry the rover. However, further 
+            delays pushed the readiness date to September 2025. NASA ultimately 
+            decided to cancel the mission in 2024, citing potential 
+            risks to other lunar exploration programs.
+            
+            Despite the cancellation, NASA plans to repurpose VIPER's instruments and components 
+            for future lunar missions.
+        </description>
+    </Investigation>
+</Product_Context>
