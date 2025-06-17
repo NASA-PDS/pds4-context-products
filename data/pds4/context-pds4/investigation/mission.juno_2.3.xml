@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:investigation:mission.juno</logical_identifier>
+    <version_id>2.3</version_id>
+    <title>Juno</title>
+    <information_model_version>1.23.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>JUNO</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-06-10</modification_date>
+        <version_id>2.3</version_id>
+        <description>Updated schema version. Added SRU instrument; removed RMI. Ordered references alphabetically</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-12-29</modification_date>
+        <version_id>2.2</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>2.1</version_id>
+        <description>
+                    Per "Guide toPDS4 Context Products" v1.3,
+                    - changed all lidvid_reference to lid_reference
+                    - changed target LIDs to new formation rule
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2018-07-10</modification_date>
+        <version_id>2.0</version_id>
+        <description>
+                    added instrument LIDs
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.jno</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:fgm.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:jade.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:jedi.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:jiram.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:junocam.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mwr.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:jno.rss</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:sru.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:uvs.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:waves.jno</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:dust.dust</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planetary_system.solar_system</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <!--notyet       <Internal_Reference> -->
+    <!--notyet            <lid_reference>urn:nasa:pds:context:target:plasma_cloud.io_plasma_torus</lid_reference> -->
+    <!--notyet            <reference_type>investigation_to_target</reference_type> -->
+    <!--notyet       </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> wait for Rings -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:ring.jupiter.rings</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.callisto</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.europa</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.ganymede</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.io</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Stephens, S. K., Juno Project Mission Plan, Rev. D, JPL D-35556, 15 August 2013.
+            </reference_text>
+      <description>reference.JPLD-35556</description>
+    </External_Reference>
+  </Reference_List>
+  <Investigation>
+    <name>Juno</name>
+    <type>Mission</type>
+    <start_date>2011-08-05</start_date>
+    <stop_date nilReason="unknown" xsi:nil="true"/>
+    <description>Juno is a spacecraft that was launched on August 5, 2011 and arrived at Jupiter in July 2016. Juno is orbiting Jupiter and its prime mission was 32 high inclination, high eccentricity orbits of the planet, acquiring data at each periapsis for several hours. Juno has been taking measurements to help finding clues about how the planet formed, its composition, including its rocky core, and its atmospheric structure and turbulences. The mission was extended for an additional 40 orbits that should continue until September 2025. These orbits have shorter periods, going from ~43 days to ~38 days, and currently at ~33 days. The reduction in the orbial periods allows Juno to conduct close flybys of Ganymede, Europa, Io, and Jupiter's ring system, as well as gather more information about Jupiter's northern hemisphere.</description>
+  </Investigation>
+</Product_Context>

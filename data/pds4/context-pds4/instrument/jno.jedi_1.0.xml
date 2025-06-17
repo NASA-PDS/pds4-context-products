@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1N00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+  xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+  xsi:schemaLocation="
+    http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd
+    http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1N00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:jedi.jno</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Jupiter Energetic-Particle Detector Instrument</title>
+    <information_model_version>1.23.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-06-10</modification_date>
+        <version_id>1.0</version_id>
+        <description>Jupiter Energetic-Particle Detector Instrument</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.juno</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.jno</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1007/s11214-013-0025-3</doi>
+      <reference_text>
+        The Jupiter Energetic Particle Detector Instrument (JEDI) Investigation
+        for the Juno Mission, Volume 213, pages 289–346, 2017, published
+        26 November 2013
+        Mauk, B.H., D.K. Haggerty, S.E. Jaskulek, C.E. Schlemm, L.E. Brown,
+        S.A. Cooper, R.S. Gurnee, C.M. Hammock, J.R. Hayes, G.C. Ho,
+        J.C. Hutcheson, A.D. Jacques, S. Kerem, C.K. Kim, D.G. Mitchell,
+        K.S. Nelson, C.P. Paranicas, N. Paschalidis, E. Rossano, and
+        M.R. Stokes
+      </reference_text>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Jupiter Energetic-Particle Detector Instrument</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Charged Particle Detector</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>
+      JEDI measures the energetic plasma.  The JEDI system covers the
+      energy range of 25 keV to &gt; 500 keV for electrons, and 10 keV/nucleon
+      to ~20 MeV total energy for ions.  JEDI determines the distributions
+      of the high-energy magnetospheric ions and electrons, including the
+      composition of ions.  It does this by measuring the energy and
+      velocity of the particles and then using a look-up table to determine
+      the mass and therefore the species of particle. The measured species
+      for JEDI include electrons and ions (H, He, O, S).
+    </description>
+  </Instrument>
+</Product_Context>
