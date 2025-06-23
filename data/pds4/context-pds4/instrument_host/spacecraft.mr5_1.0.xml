@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mr5</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Mariner 5</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>Mariner V</alternate_id>
+                <alternate_title>Mariner V</alternate_title>
+            </Alias>
+            <Alias>
+                <alternate_id>Mariner5</alternate_id>
+                <alternate_title>Mariner5</alternate_title>
+            </Alias>
+            <Alias>
+                <alternate_id>Mariner 67</alternate_id>
+                <alternate_title>Mariner 67</alternate_title>
+            </Alias>
+            <Alias>
+                <alternate_id>Mariner Venus 67</alternate_id>
+                <alternate_title>Mariner Venus 67</alternate_title>
+            </Alias>
+            <Alias>
+                <alternate_id>Venus 67</alternate_id>
+                <alternate_title>Venus 67</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2025-06-17</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Initial creation
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:mission.mariner67</lid_reference>
+            <reference_type>instrument_host_to_investigation</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mr5.mag</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+            <reference_type>instrument_host_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+            <reference_type>instrument_host_to_target</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <doi>10.1126/science.158.3809.1665</doi>
+            <reference_text>
+                Snyder, C. W., Mariner V flight past Venus, Science, 158, no. 3809,
+                1665-1690, Dec. 1967.
+            </reference_text>
+            <description>Mission description and flyby discussion</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                Mariner-Venus 1967 Final Project Report, NASA SP-190, 301 pages, NASA,
+                Washington, D.C., 1971.
+            </reference_text>
+           <description>Detailed report on the mission, spacecraft, instruments, operations, and results</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1126/science.158.3809.1665</doi>
+            <reference_text>
+                Shaw, D. E., Mariner Venus 67 science presentation, Science, 158, no. 3809,
+                1665-1690, Dec. 1967.
+            </reference_text>
+            <description>Citation spans the seven papers that discuss the flyby and present preliminary results; includes Snyder (1967), DOI: 10.1126/science.158.3809.1665</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Instrument_Host>
+        <name>Mariner 5</name>
+        <type>Spacecraft</type>
+        <naif_host_id>not applicable</naif_host_id>
+
+        <description>
+
+The Mariner 5 spacecraft was a repurposed Mariner-Mars 64 (Mariner 4)
+backup converted for Venus exploration via flyby. The science payload
+included the following instruments: an ultraviolet photometer, solar
+plasma probe, helium magnetometer, trapped radiation detector, as well
+as S-band radio occultation, dual-frequency radio propagation, and
+celestial mechanics experiments.
+
+        </description>
+    </Instrument_Host>
+</Product_Context>

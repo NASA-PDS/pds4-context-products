@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.sch" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument:mr5.mag</logical_identifier>  
+        <version_id>1.0</version_id>
+        <title>Magnetometer for Mariner 5</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>Mariner 5 MAG</alternate_id>
+                <alternate_title>Mariner 5 MAG</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2025-06-17</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Initial creation
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mr5</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <doi>10.1109/TMAG.1968.1066331</doi>
+            <reference_text>
+                Connor, B. V., Space magnetics: The Mariner V magnetometer experiment,
+                IEEE Transactions on Magnetics, MAG-4, no. 3, 391-397, Sept. 1968.
+            </reference_text>
+            <description>Instrument description paper</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1126/science.158.3809.1669</doi>
+            <reference_text>
+                Bridge, H. S., Lazarus, A. J., Snyder, C. W., Smith, E. J., Davis, L., Jr.,
+                Coleman, P. J., Jr., Jones, D. E., Mariner V: Plasma and magnetic fields
+                observed near Venus, Science, 158, no. 3809, 1669-1673, 1967.
+            </reference_text>
+            <description>Experiment results paper</description>
+        </External_Reference>
+    </Reference_List>
+ 
+    <Instrument>
+        <name>Mariner 5 Magnetometer (MAG)</name>  
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Magnetometer</ctli:type>
+            </ctli:Type_List>
+        </Type_List_Area> 
+        <naif_instrument_id>not applicable</naif_instrument_id>
+ 
+        <serial_number>not applicable</serial_number>
+ 
+        <description>
+
+The Mariner 5 Triaxial Low Field Helium Magnetometer measured
+interplanetary and Venusian magnetic fields by detecting changes in
+helium absorptivity to circularly polarized infrared light. Mounted on a
+1.5-m boom, it had a plus/minus 204 nT range with 0.2 nT precision. It
+operated in high-rate mode (3 samples/12.6s) from June-July 1967 and
+low-rate mode (3 samples/50.4s) for the remaining mission. Data quality
+was excellent except for a brief uncertain period in September-October
+1967.
+
+        </description>
+    </Instrument>
+</Product_Context>
