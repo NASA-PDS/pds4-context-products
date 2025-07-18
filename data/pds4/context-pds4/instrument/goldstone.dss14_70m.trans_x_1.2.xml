@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1O00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1O00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:goldstone.dss14_70m.trans_x</logical_identifier>
-    <version_id>1.1</version_id>
-    <title>DSS-13 X-band Goldstone Solar System Radar Transmitter</title>
-    <information_model_version>1.22.0.0</information_model_version>
+    <version_id>1.2</version_id>
+    <title>DSS-14 X-band Goldstone Solar System Radar Transmitter</title>
+    <information_model_version>1.24.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
@@ -14,6 +14,11 @@
       </Alias>
     </Alias_List>
     <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-07-16</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Fixed title and name "DSS-13..."</description>
+      </Modification_Detail>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
         <version_id>1.1</version_id>
@@ -45,7 +50,7 @@
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>DSS-13 X-band Goldstone Solar System Radar Transmitter</name>
+    <name>DSS-14 X-band Goldstone Solar System Radar Transmitter</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radar</ctli:type>
