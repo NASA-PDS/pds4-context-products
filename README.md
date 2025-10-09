@@ -316,7 +316,7 @@ local git instance.
 
 In a browser, navigate to the **Code** page for your working *pds4-context-products* repo. 
 Open the drop-down menu on the green *<> Code* button, select the "Local" tab, and click the 
-copy icon to copy the URL of your working repo to your clipboard.
+copy icon to copy the URL of your working repo to your clipboard.  Important: you must select the SSH tab, as HTTPS will not work for upload.
 
 At your local command line, start by moving to the directory where you want to create the 
 local copy of your working *pds4-context-products* repo. Then do:
@@ -350,7 +350,7 @@ When you're done editing and are ready to upload your changes to
 GitHub, first do ```git status```. This will list any discrepancies - like new files you forgot to 
 ```git add``` - that should be resolved before uploading changes to your working repo. When 
 any problems have been resolved and you're ready to publish, 
-do ```git push [branchname]``` to upload your changes to your editing branch in GitHub.
+do ```git push``` to upload your changes to your editing branch in GitHub.
 
 ----
 ### 5. Filing a Pull Request (PR)
