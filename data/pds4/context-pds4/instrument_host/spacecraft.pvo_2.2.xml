@@ -1,13 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.pvo</logical_identifier>
-    <version_id>2.1</version_id>
+    <version_id>2.2</version_id>
     <title>Pioneer Venus Orbiter</title>
-    <information_model_version>1.22.0.0</information_model_version>
+    <information_model_version>1.24.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-10-03</modification_date>
+        <version_id>2.2</version_id>
+        <description>Updated schema version. Uncommented OTUR instrument. Added DOI to Nothwang (1980) reference. Added Colin and Hunten (1977) reference.</description>
+      </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>2.1</version_id>
@@ -113,21 +118,29 @@
       <lid_reference>urn:nasa:pds:context:instrument:pvo.opa</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
-    <!--        <Internal_Reference> -->
-    <!--        <lid_reference>urn:nasa:pds:context:instrument:pvo.otur</lid_reference> -->
-    <!--        <reference_type>instrument_host_to_instrument</reference_type> -->
-    <!--    </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pvo.otur</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
       <reference_type>instrument_host_to_target</reference_type>
     </Internal_Reference>
     <External_Reference>
+      <doi>10.1109/TGRS.1980.350251</doi>
       <reference_text>
-                   Nothwang, G.T., Pioneer Venus Spacecraft Design and Operation, IEEE
-                   Transactions on Geoscience and Remote Sensing, Vol GE-18, No. 1, pp. 5-10,
-                   January 1980.
-            </reference_text>
+        Nothwang, G. T., Pioneer Venus Spacecraft Design and Operation, IEEE
+        Transactions on Geoscience and Remote Sensing, Vol GE-18, No. 1, pp. 5-10,
+        January 1980.
+      </reference_text>
       <description>reference.NOTHWANG1980</description>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1007/BF02186463</doi>
+      <reference_text>
+        Colin, L., Ed., and D. M. Hunten, Ed., Pioneer Venus experiment descriptions,
+        Space Sci. Rev., 20, No. 4, 451-525, June 1977.
+      </reference_text>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
