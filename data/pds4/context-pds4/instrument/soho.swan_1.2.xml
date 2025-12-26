@@ -14,15 +14,20 @@
       </Alias>
     </Alias_List>
     <Citation_Information>
-      <author_list>Combi, M.</author_list>
       <publication_year>2020</publication_year>
       <description>The SWAN instrument onboard the SOHO spacecraft.</description>
+      <List_Author>
+        <Person>
+          <given_name>Michael</given_name>
+          <family_name>Combi</family_name>
+        </Person>
+      </List_Author>
     </Citation_Information>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2025-12-24</modification_date>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Removed instrument_to_investigation references.</description>
+        <description>Updated schema version. Removed instrument_to_investigation references. Updated to use List_Author.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>

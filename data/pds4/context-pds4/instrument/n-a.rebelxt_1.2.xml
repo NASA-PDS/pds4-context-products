@@ -20,7 +20,7 @@
       <Modification_Detail>
         <modification_date>2025-12-24</modification_date>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Updated CTLI instrument types.</description>
+        <description>Updated schema version. Updated CTLI instrument types. Remove invalid unk instrument host.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
@@ -38,10 +38,6 @@
     </Modification_History>
   </Identification_Area>
   <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:unk.unk</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
     <External_Reference>
       <reference_text>
                    Yingst, R.A., M.E. Schmidt, and R.C.F. Lentz, Understanding Mars at the

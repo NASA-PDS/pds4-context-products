@@ -53,7 +53,6 @@
         <ctli:type>Meteorology</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <subtype>Meteorology</subtype>
     <description>The Temperatures and Wind Sensor (TWINS) instrument was part of the InSight Mars Lander Auxiliary Payload Sensor Subsystem (APSS), in charge of collecting environmental data in support of the SEIS instrument, also onboard the InSight lander, as well as to provide helpful data for the safe deployment of the hardware to the Martian surface. Data from TWINS was used by SEIS to reduce and decorrelate atmospheric effects from seismic signals.</description>
   </Instrument>
 </Product_Context>

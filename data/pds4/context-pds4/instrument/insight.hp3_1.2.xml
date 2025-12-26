@@ -52,10 +52,10 @@
         </ctli:Type_List>
         <ctli:Type_List>
           <ctli:type>Temperature Sensor</ctli:type>
+          <ctli:subtype>Thermal Probe</ctli:subtype>
         </ctli:Type_List>
       </ctli:Type_List_Set>
     </Type_List_Area>
-    <subtype>Thermal Probe</subtype>
     <description>The InSight Mars Lander Heat Flow and Physical Properties Package (HP3) was designed to make in-situ measurements of the heat flow on Mars. The package included a "mole", which was designed to hammer itself into the subsurface for up to 5 meters. However, HP3 was only able to drill a few centimeters on Mars. The mole was attached to a tether that contains temperature sensors to determine the thermal gradient. The mole was also equipped with heating foils, which was to be used to determine the thermal conductivity of the regolith.</description>
   </Instrument>
 </Product_Context>

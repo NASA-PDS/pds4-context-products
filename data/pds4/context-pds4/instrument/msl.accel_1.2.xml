@@ -53,7 +53,6 @@
         <ctli:type>Accelerometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <subtype>Accelerometer</subtype>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Mars Science Laboratory (MSL) Curiosity Rover has accelerometers for measuring acceleration and gyroscopes for measuring orientation and angular velocity on board. The very accurate sensors are used to navigate the surface of Mars and point its other instruments in the right direction. While these instruments weren't designed for measuring gravity, scientists realized that they could use them to gather data.</description>

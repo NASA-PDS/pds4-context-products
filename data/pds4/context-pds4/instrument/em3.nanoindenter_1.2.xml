@@ -44,7 +44,7 @@
     <name>UNHT Nanoindenter</name>
     <Type_List_Area>
       <ctli:Type_List>
-        <ctli:type>Mechanical Properties</ctli:type>
+        <ctli:type>Mechanical Properties Instrument</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <description>The nanoindenter is a highly sophisticated instrument designed to measure the mechanical
