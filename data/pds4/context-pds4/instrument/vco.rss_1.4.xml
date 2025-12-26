@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:jaxa:darts:context:instrument:vco.rss</logical_identifier>
+    <version_id>1.4</version_id>
+    <title>Radio Science Subsystem for Venus Climate Orbiter Akatsuki</title>
+    <information_model_version>1.25.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>rss</alternate_id>
+        <alternate_title>RSS</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-12-24</modification_date>
+        <version_id>1.4</version_id>
+        <description>Updated schema version. Removed instrument_to_investigation references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2025-05-19</modification_date>
+        <version_id>1.3</version_id>
+        <description>Rollback description updates</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2023-05-16</modification_date>
+        <version_id>1.1</version_id>
+        <description>Fixed CTLI URNs; bumped up to 1J00.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2022-11-10</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:jaxa:darts:context:instrument_host:spacecraft.vco</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.5047/eps.2011.03.009</doi>
+      <reference_text>
+                Imamura, T., T. Toda, A. Tomiki, D. Hirahara, T. Hayashiyama, N. Mochizuki,
+                Z. Yamamoto, T. Abe, T. Iwata, H. Noda, Y. Futaana, H. Ando, B. Haeusler, M. Paetzold, and A. Nabatov,
+                Radio occultation experiment of the Venus atmosphere and ionosphere with the Venus orbiter Akatsuki,
+                Earth, Planets and Space, 63, 493-501, 2011.
+            </reference_text>
+      <description>The Radio Science experiments overview paper incuding description on Venus Climate Orbiter Akatsuki's Radio Science Subsystem.</description>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1186/s40623-017-0722-3</doi>
+      <reference_text>
+                Imamura, T., et al.,
+                Initial performance of the radio occultation experiment in the Venus orbiter mission Akatsuki,
+                Earth, Planets and Space, 69, 137, 2017.
+            </reference_text>
+      <description>An updated Radio Science experiment overview paper incuding examples of data.</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Radio Science Subsystem for Venus Climate Orbiter Akatsuki</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Radio Science</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <description>The Radio Science Subsystem for Venus Climate Orbiter Akatsuki includes elements on both the spacecraft and the ground. The spacecraft element (covered by this context product) was further distributed among several subsystems on the spacecraft, while the ground element included ground stations at Usuda Deep Space Center of JAXA, Indian Deep Space Network (IDSN) of the Indian Space Research Organization (ISRO), and Weilheim station (WHM) of the German Aerospace Center (DLR). The radio communication system of the spacecraft works with X-band downlink frequency only. During the experiments, one of the X-band transponders is locked to an Ultra-Stable Oscillator (USO), and the transponder signal is amplified by a traveling wave tube amplifier. The USO provides the stable reference frequency for the transponder. Downlink signals are amplified and radiated through a slot array antenna toward the tracking stations on Earth. The radio waves sequentially go behind the planet's ionosphere and neutral atmosphere as seen from the tracking stations, and reemerges in the reverse sequence. During such occultation events the neutral and ionized atmospheres of the planet cause bending, attenuation and scintillation of radio waves. The perturbed signal is collected by ground stations, amplified, down-converted, and recorded for later analysis. From the changes in bending angle and attenuation, atmospheric profiles of density, temperature and H2SO4 amount in the neutral atmosphere as well as electron density in the ionosphere of the planet can be derived. During superior conjunctions solar corona observations are also performed.</description>
+  </Instrument>
+</Product_Context>

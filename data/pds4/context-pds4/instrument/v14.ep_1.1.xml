@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:v14.ep</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Energetic Particles, MSU-TASPD, for Venera 14</title>
+    <information_model_version>1.25.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>ASP-18M</alternate_id>
+        <alternate_title>ASP-18M</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-12-24</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2025-06-20</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Initial creation
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.v14</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                Vernov, S. N., et al., A study of characteristics of proton fluxes
+                measured on SC VENERA-13 and VENERA-14, (in Russian), Kosmicheskie
+                Issledovaniya, vol. 21, no. 13, 449-453, 1983.
+            </reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                Ermakov, S. I., Kontor, N. N., Lyubimov, G. P., Pereslegina, N. V.,
+                Tulupov, V. I., Chuchkov, E.A., Case analysis of proton
+                fluxes in the interplanetary medium using data from SC VENERA-13
+                and VENERA-14, (in Russian), Kosmicheskie Issledovaniya, 1983,
+                vol. 21, no. 13, 466-475, 1983.
+            </reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                Ermakov, S. I., Kontor, N. N., Lyubimov, G. P., Pereslegina, N. V.,
+                Tulupov, V. I., Chuchkov, E. A., Variations of Solar
+                Proton Anisotropy on November 10-11 1981, 18th Cosmic Ray Conf.,
+                Proc., vol. 4, 162-164, 1983.
+            </reference_text>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Venera 14 Energetic Particles, MSU-TASPD</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Charged Particle Detector</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <description>
+
+The Venera 13 Energetic Particles experiment was a Soviet suite of particle
+detectors that monitored the flux of charged particles of medium energies in
+interplanetary space during cruise and Venus flyby, specifically measuring
+at 20-min intervals protons (&gt;30 and 1-3 MeV) from the sunward direction and
+protons (1-3 MeV) from the anti-sunward direction; and measuring
+simultaneously, at 80-min intervals, protons (1-2, 2-4, and 4-8 MeV) from
+both the sunward and anti-sunward directions.
+
+        </description>
+  </Instrument>
+</Product_Context>
