@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:clps_to_2im_ncll.scalpss</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>The CLPS Task Order 2-IM Nova-C Lunar Lander Stereo Cameras for Lunar Plume-Surface Studies</title>
+    <information_model_version>1.25.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>CLPS Task Order 2IM Stereo Cameras for Lunar Plume-Surface Studies (SCALPSS)</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-12-24</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Removed instrument_to_investigation references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2025-08-14</modification_date>
+        <version_id>1.1</version_id>
+        <description>Added instrument_to_investigation. Updated schema to 1O00</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-09-12</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.clps_to_2im_ncll</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>The CLPS Task Order 2-IM Nova-C Lunar Lander Stereo Cameras for Lunar Plume-Surface Studies</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Camera</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <description>The CLPS Task Order 2-IM Stereo CAmeras for Lunar Plume-Surface Studies (SCALPSS) is an imaging system used to capture video during descent and landing on the lunar surface. The image data will be used to reconstruct the effects of plume-surface interaction (PSI) in post-flight using a well-known technique, stereo photogrammetry. The expected data from the SCALPSS 1.0 system will reconstruct the 3D shape of the ground after it has been eroded by the lander plume.  </description>
+  </Instrument>
+</Product_Context>

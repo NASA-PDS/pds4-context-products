@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:xrfs.a16c</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Apollo 16 Command and Service Module X-Ray Fluorescence Spectrometer</title>
+    <information_model_version>1.25.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>Apollo 16 X-Ray Fluorescence Spectrometer</alternate_id>
+        <alternate_title>Apollo 16 X-Ray Fluorescence Spectrometer</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>A16 X-Ray Fluorescence Spectrometer</alternate_id>
+        <alternate_title>A16 X-Ray Fluorescence Spectrometer</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>Apollo 16 XRFS</alternate_id>
+        <alternate_title>Apollo 16 XRFS</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>A16 XRFS</alternate_id>
+        <alternate_title>A16 XRFS</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-12-24</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2025-10-06</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.apollo_16</lid_reference>
+      <reference_type>context_to_associate</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.a16c</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:apollodoc:a16doc:a16c_xrfs_overview</lid_reference>
+      <reference_type>instrument_to_document</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:apollodoc:a16doc:a16_psr</lid_reference>
+      <reference_type>context_to_associate</reference_type>
+      <comment>Apollo 16 Preliminary Science Report</comment>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1126/science.177.4045.256</doi>
+      <reference_text>Adler, I., J.I. Trombka, J. Gerard, 
+        P. Lowman, R. Schamadebeck, H. Blodgett, E. Eller, L. Yin, 
+        R. Lamothe, G. Osswald, P. Gorenstein, P. Bjorkholm, 
+        H. Gursky, and B. Harris, Apollo 16 Geochemical X-ray 
+        Fluorescence Experiment: Preliminary Report, Science, 
+        Vol. 177, pp. 256-259, 1972.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Adler, I., J.I., Trombka, R. Schmadebeck, 
+        P. Lowman, and B. Harris, Results of the Apollo 15 and 
+        16 X-ray experiment, Proc. Lunar Sci Conf. 4th, Vol. 3, 
+        2783-2792, Pergamon Press, New York, NY, 1973.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Adler, I., J. Trombka, J. Gerard, 
+        P. Lowman, R. Schmadebeck, H. Blodget, E. Eller, 
+        L. Yin, R. Lamothe, G. Osswald, P. Gorenstein, 
+        P. Bjorkholm, H. Gursky, B. Harris, L. Golub, 
+        and F.R. Harnden, Jr., X-ray fluorescence experiment, 
+        Apollo 16 Preliminary Science Report, NASA SP-315, 
+        19-1, published by NASA, Washington, D.C., 1972.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Adler I., J. Trombka, J. Gerard, 
+        R. Schmadebeck, P. Lowman, H. Blodget, L. Yin, 
+        E. Eller, R. Lamothe, P. Gorenstein, P. Bjorkholm, 
+        B. Harris, and H. Gursky, The Apollo X-Ray 
+        Fluorescence Experiment, NASA TM X-65834, March, 
+        1972.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Adler, I., R. Schmadebeck, J.I. Trombka, 
+        P. Gorenstein, and P. Bjorkholm, The Apollo 15 and 
+        16 X-Ray Fluorescence Experiment, Space Science 
+        Instrumentation, 1, 305-316, 1975.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>ASE, Final Report - Apollo Lunar Orbital 
+        Sciences Program Alpha and X-Ray Spectrometers, 
+        NASA CR-128649, American Science and Engineering (ASE), 
+        Inc., Cambridge, Massachusetts, 1972.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Bielefeld, M., R. Reedy, A. Metzger, 
+        J. Trombka, and J. Arnold, Proc. Lunar Sci. 
+        Conf. 7th, pp. 2661-2676, 1976.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Bielefeld, M.J., C.G. Andre, E.M. Eliason, 
+        P.E. Clark, I. Adler, and J.I. Trombka, Imaging of lunar 
+        surface chemistry from orbital X-ray data, Proc. Lunar 
+        Sci. Conf. 8th, 1, 901-908, 1977.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Clark, P.E., and I. Adler, Utilization of 
+        independent solar flux measurements to eliminate 
+        nongeochemical variation in X-ray fluorescence data, 
+        Proc. Lunar Sci. Conf. 9th, 3, 3029-3036, 1978.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Clark, P.E., C.G. Andre, I. Adler, J. Weidner, 
+        and M. Podwysocki, Palus Somni: anomalies in the correlation 
+        of Al/Si X-ray fluorescence ratios and broad-spectrum albedo., 
+        Geophys. Res. Lett., 3, 421-424, 1976.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Clark, P.E., E. Eliason, C. Andre C., and I. 
+        Adler, A new color correlation method applied to XRF Al/Si 
+        ratios and other lunar remote sensing data, Proc. Lunar Sci. 
+        Conf. 9th, 3, 3015-3027, 1978.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1109/TNS.1974.4327462</doi>
+      <reference_text>Jagoda, N., K. Kubierschky, R. Frank, P. Bjorkholm, 
+        and P. Gray, The Apollo X-ray Fluorescence Spectrometer, IEEE 
+        Transactions on Nuclear Science, Vol. NS-21, 194-200, Feb., 1974.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Lauderdale, W., and W. Eichelman, Apollo Scientific 
+        Experiments Data Handbook, NASA Technical Memorandum X-58131, 
+        JSC-09166, Chapter 27 published by NASA Johnson Space Center, 
+        Houston, Texas, Aug. 1974 (revised Apr. 1976).</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1086/181660</doi>
+      <reference_text>Metzger, A.E., R.H. Parker, D. Gilman, L.E. Peterson, 
+        and J.I. Trombka, Observation of a Cosmic Gamma-Ray Burst on 
+        Apollo 16, I - Temporal Variability and Energy Spectrum, 
+        Astrophysical Journal, 194, L19-L25, 1974.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1086/181661</doi>
+      <reference_text>Trombka, J.I., E.L, Eller. R.L. Schmadebeck, I. Adler, 
+        A.E. Metzger, D. Gilman, P. Gorenstein, and P. Bjorkholm, Observation 
+        of a Cosmic Gamma-Ray Burst on Apollo 16, II - X-Ray Time Profile 
+        and Source Location, Astrophysical Journal, 194, L27-L33, 1974.</reference_text>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>Trombka, J.I., J.R. Arnold, I. Adler, A.E. Metzger, 
+        and R.C. Reedy, Lunar elemental analysis obtained from the Apollo 
+        gamma-ray and x-ray remote sensing experiment, Proceedings of the 
+        Soviet-American Conference on the Cosmochemistry of the Moon and 
+        Planets, Moscow, Soviet Union, NASA TM X-72195, 1974.</reference_text>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Apollo 16 Command and Service Module X-ray Fluorescence Spectrometer</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Apollo 16 X-ray Fluorescence Spectrometer (XRFS), carried in the
+      scientific instrument module (SIM) of the Command and Service Module (CSM)
+      on the Apollo 16 mission, was used for orbital mapping of the lunar surface
+      composition and X-ray galactic observations during the trans-earth
+      coast.  The instrument, nearly identical to the X-ray fluorescence
+      spectrometer flown on Apollo 15, was designed to observe the intensity
+      and characteristic energy distribution of the secondary, or
+      fluorescent, x-rays produced by the interaction of solar x-rays with
+      the lunar surface.  A typical quiet Sun X-ray spectrum produces
+      measurable x-ray responses from elements up to about atomic number 14
+      (silicon), higher solar activity can result in fluorescence of higher
+      atomic number elements.  The instrument consisted of two separate
+      assemblies, the spectrometer processor, which also held the alpha
+      spectrometer experiment and had a total mass of 59 kg, and the solar
+      X-ray monitor. The instrument consumed 26 W during operation and 21 W
+      during standby (including the heaters).
+      
+      The spectrometer processor assembly comprised three large-area
+      proportional counters with state-of-the-art energy resolution, a set of
+      large-scale filters for energy discrimination among the characteristic
+      X-rays of aluminum, silicon, and magnesium, and a data handling system
+      for count accumulation, for eight-channel pulse-height analysis, and for
+      relaying the data to the spacecraft (SC) telemetry system.  Temperature
+      of the apparatus was maintained by heaters.  The large-area proportional
+      counters were collimated to fields of view of about 60 deg full width
+      half maximum (although the actual field of view shows a complicated
+      response function) and yielded a resolution on the lunar surface given
+      as 111 by 148 km.  However, the actual resolution was probably
+      different; for more detail on the field-of-view and surface resolution,
+      the user should read the report XRFS_CHANNELS_FOV_DISCREP.PDF in the
+      DOCUMENT directory.  Timing was done using the spacecraft 100 pps clock.
+      The three counters each had a 0.0254 mm thick beryllium window with an
+      area of 25 square centimeters, detector 1 was unfiltered, detector 2 had
+      a magnesium filter, and detector 3 had an aluminum filter.  Both filters
+      were foils in the range of 0.005 - 0.0075 mm thick.  The counters were
+      filled to a pressure of 1 atmosphere with 90% argon, 9.5% carbon
+      dioxide, and 0.5% helium. A stable power supply provided a bias voltage
+      of 2250 V for the proportional counters.  The three counters pointed
+      towards the lunar surface during lunar orbital operations and were
+      pointed towards X-ray sources in space during cruise operations.
+      
+      The spectrometer assembly was equipped with two calibration sources
+      emitting characteristic K radiation, a magnesium K-alpha source and
+      iron 55 (which decays to manganese 55).  The calibration sources are
+      mounted on a rod which can be rotated into the field of view of the
+      proportional counters.  This was scheduled to be done every 16 minutes
+      for a period of 64 seconds.
+      
+      The solar monitor assembly was designed to provide a simultaneous
+      measure of the incident solar x-ray flux in order to account for
+      variations in solar activity and provide an estimate of the flux at the
+      lunar surface and was mounted on the opposite side (sector IV) of the
+      CSM facing the Sun during operation.  The assembly consisted of a
+      proportional counter with a 3.0 mm wide window cut into a 4.19 mm thick
+      aluminum block overlain by a 2.36 mm thick tungsten block, cut to give a
+      106 degree field of view.  The window was covered with a 0.025 mm
+      beryllium foil shield and a second beryllium filter which was added to
+      prevent the oversaturation which had occurred on the Apollo 15 solar
+      monitor.  (The thickness and transmission of the second beryllium filter
+      were never documented. However Michael Bielefeld, in private
+      communication in 2008, guessed that a spare 1-mil (0.001-inch) beryllium
+      window was added given the time constraints and difficulty of milling
+      thin beryllium windows.)  Behind the window was a proportional counter
+      filled to one atmosphere with 90% argon, 9.5% carbon dioxide, and 0.5%
+      helium.  The solar monitor had its own high voltage power supply and
+      analog electronics.
+      
+      The instrument had four modes of operation.  However, there is some
+      discrepancy in the reported energy ranges of the channels. In normal
+      mode, the three counters measured in seven equal-range channels over an
+      energy range given as 0.69 - 3.00 keV and one final channel covering
+      energies above 3.00 keV (0.69-1.02, 1.02-1.35, 1.35-1.68, 1.68-2.01,
+      2.01-2.34, 2.34-2.67, 2.67-3.00, 3.00+), and the solar monitor measured
+      in seven equal-range channels from approximately 1.0 to 3.0 keV.  In the
+      calibration mode, the calibration sources were measured by detectors 1,
+      2, and 3. The third mode was the same as the normal mode except the
+      energy range boundaries of detector 1 were roughly doubled to seven
+      equal-range channels from 1.4 to 7.6 keV, and one above 7.6 keV
+      (1.4-2.3, 2.3-3.2, 3.2-4.1, 4.1-4.9, 4.9-5.8, 5.8-6.7, 6.7-7.6, 7.6+).
+      The final mode used the same spectral range as the third mode but
+      lunar-surface detectors 1, 2, and 3 measured the calibration sources.
+      For a description of the discrepancies in the published energy
+      boundaries of the channels see XRFS_CHANNELS_FOV_DISCREP.PDF in
+      the DOCUMENT directory.
+      
+      The Apollo 16 X-ray spectrometer returned the first data at about 2:00
+      UT on 20 April 1972, 80 hours GET (ground elapsed time, or time since
+      launch) on the third orbit. Due to difficulties encountered during the
+      flight, the experiment was initially operated for about 12 hours in a
+      roughly 18 x 111 km orbit and then turned off. The orbit was then
+      circularized to roughly 110 x 110 km and the experiment turned on
+      again on 21 April at approximately 4:00 UT. Approximately 80 hours of
+      observations of the lunar surface were made in total. The coverage
+      between the Apollo 15 and Apollo 16 missions overlapped between about
+      50 and 100 degrees and the results showed that the measurements were
+      consistent for the two experiments. Galactic X-ray observations were
+      made during trans-Earth coast. The experiment performed nominally and
+      allowed production of compositional maps of 20% of the lunar surface.
+      
+      For a discussion of the pre- and in-flight calibration tests and the
+      data reduction process for the Apollo X-Ray Fluorescence Spectrometers
+      see XRFS_CALIBRATION.PDF located in the DOCUMENT directory of the 
+      PDS3 datasets, A15C-L-XRFS-2-SURFACE-XRAY-COUNTS-V1.0 or
+      A16C-L-XRFS-2-SURFACE-XRAY-COUNTS-V1.0.</description>
+  </Instrument>
+</Product_Context>
