@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1O00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1O00_2100.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:isro:isda:context:instrument:ch1_cho.hys</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Hyper Spectral Imager</title>
+        <information_model_version>1.24.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+      		<Alias>
+        		<alternate_title>HySI</alternate_title>
+      		</Alias>
+    	</Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-01-25</modification_date>
+                <version_id>1.0</version_id>
+                <description>First version</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:isro:isda:context:instrument_host:spacecraft.ch1_cho</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+      		<reference_text>
+			Bhattacharya, Satadru, Chauhan, Prakash, Rajawat, AS, Ajai and Kiran
+			Kumar, AS: Lithological mapping of central part of Mare Moscoviense using
+			Chandrayaan-1 Hyperspectral Imager (HySI) data, ICARUS, Vol.212, No.2,pp.470-479, April 2011.
+            	</reference_text>
+      		<description>reference.Bhattacharyaetal</description>
+    	</External_Reference>
+	<External_Reference>
+      		<reference_text>
+			Singh, Deepak, Srivastava, VK, Bhatt, Jignesh and Bhattacharya, Satadru:
+			Mineralogical Mapping of Lunar Orbits of Chandrayaan-1 Mission using
+			Hyper Spectral Imaging Camera (HySI) and Terrain Mapping Camera (TMC)
+			Data, Photogrammetric Engineering And Remote Sensing, Vol.77, No.1,
+			pp.6-10, January 2011
+            	</reference_text>
+      		<description>reference.Singhetal</description>
+    	</External_Reference>
+	<External_Reference>
+      		<reference_text>
+			Lal, Disha, Chauhan, Prakash, Shah, RD and Ajai: FeO And TiO2Abundance Analysis Around Apollo-17 Landing Site Using Reflectance
+			Spectra From The HySI Sensor On-Board Chandrayaan-1, Current Science,
+			Vol.102, No.11, pp.1560-1564, 10 June 2012.
+            	</reference_text>
+      		<description>reference.Laletal</description>
+    	</External_Reference>
+    </Reference_List>
+    <Instrument>
+        <name>Hyper Spectral Imager</name>
+	<Type_List_Area>
+		<ctli:Type_List>
+	        	<ctli:type>Imaging Spectrometer</ctli:type>
+        	</ctli:Type_List>
+    	</Type_List_Area>
+        <description>
+	                           The Hyper Spectral Imager (HySI),          
+                                   operating in the visible and near          
+                                   Infrared spectral region, is one           
+                                   of the three imaging instruments           
+                                   onboard Chandrayaan-1 spacecraft           
+                                   for mineral logical study of the           
+                                   Moon. HySI is designed to map entire       
+                                   lunar surface in 64 contiguous bands       
+                                   in the visible and near infrared           
+                                   (VNIR: 421-964 nm) with a spatial          
+                                   sampling of 80m. A wedge filter is         
+                                   employed for the spectral separation       
+                                   and the image is mapped on an area         
+                                   detector. The detector output is           
+                                   processed in the front-end electronics     
+                                   to generate the 64-band with 12-bit        
+                                   quantization.                              
+                                   The key features of HySI are as follows:   
+                                   - Spatial sampling : 80 x 80 sq. m         
+                                   (from 100 km orbit)                        
+                                   - Swath            : 20 km                 
+                                   - Spectral range   : 461 - 964 nm          
+                                   - No. of spectral  : 64 continuous         
+                                   bands                                      
+                                   - No. of gains     : 2 each                
+                                   - No. of exposure  : 4                     
+                                   setting                                    
+                                   - Quantization     : 12-bits               
+                                   - Signal to noise ratio  > 100             
+                                   - Square wave response   > 40              
+                                   This instrument is from Space              
+                                   Applications Centre, Ahmedabad, India.     
+                                   Science Objective                          
+                                   - Systematic topographic mapping of        
+                                   the entire lunar surface, including        
+                                   far and the polar regions                  
+                                   - Preparation of a three-dimensional       
+                                   atlas of the Moon with high spatial        
+                                   and altitude sampling for scientific       
+                                   studies. The high resolution imagery       
+                                   of the entire moon will help detailed      
+                                   study of specific lunar regions of         
+                                   scientific interests and further our       
+                                   understanding of lunar evolution.          
+                                   There are 2 different gain settings        
+                                   and 4 different exposure setting of the    
+                                   instrument.                                
+                                   In flight yaw mode                         
+                                   forward describes 0 degree rotated         
+                                   from nominal                               
+                                   reverse describes 180 degree rotated       
+                                   from nominal                               
+                                   There are four possible orbit limb and     
+                                   flight yaw mode combinations:              
+                                   1. descending and forward,                 
+                                   no changes in lines or samples             
+                                   are performed                              
+                                   2. descending and reverse,                 
+                                   samples are reversed                       
+                                   3. ascending and forward,                  
+                                   both lines and samples                     
+                                   are reversed                               
+                                   4. ascending and reverse.                  
+                                   lines are reversed                         
+                                   Refer spacecraft yaw direction             
+                                   and orbit limb direction keywords.
+	</description>
+    </Instrument>
+</Product_Context>
