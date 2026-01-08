@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:isro:isda:context:investigation:mission.ch1</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Chandrayaan-1 Mission</title>
+        <information_model_version>1.24.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>CH1</alternate_id>
+                <alternate_title>CHANDRAYAAN-1</alternate_title>
+            </Alias>
+            <Alias>
+                <alternate_id>ch1</alternate_id>
+                <alternate_title>chandrayaan-1</alternate_title>
+            </Alias>
+            <Alias><alternate_title>urn:nasa:pds:context:investigation:mission.chandrayaan-1</alternate_title></Alias>  <!--deprecated LID-->
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-01-25</modification_date>
+                <version_id>1.0</version_id>
+                <description>first version</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:isro:isda:context:instrument_host:spacecraft.ch1_cho</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:isro:isda:context:instrument:ch1_cho.hys</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:isro:isda:context:instrument:ch1_cho.llr</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:isro:isda:context:instrument:ch1_cho.tmc</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:ch1_cho.mrffr</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:ch1_cho.m3</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <doi>10.1007/BF02715953</doi>
+            <reference_text>
+                Bhandari, N., Chandrayaan-1: Science Goals, Journal of Earth System Sciences, 114(6), 701-709, 2005, doi:10.1007/BF02715953.
+            </reference_text>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1016/j.actaastro.2008.05.013</doi>
+            <reference_text>
+                Goswami, J.N., and M. Annadurai, Chandrayaan-1 mission to the Moon, Acta Astronautica (ISSN 0094-5765), Vol. 63, Iss. 11-12, 1215-1220, 2008, doi:10.1016/j.actaastro.2008.05.013.
+            </reference_text>
+        </External_Reference>
+    </Reference_List>
+    <Investigation>
+        <name>Chandrayaan-1 Mission</name>
+        <type>Mission</type>
+        <start_date>2008-10-22</start_date>
+        <stop_date>2009-08-28</stop_date>
+        <description> 
+	                   Chandrayaan-1 was launched on 22nd October, 2008 using a variant of the Indian
+                       Polar Satellite Launch Vehicle (PSLV-XL). The spacecraft was inserted into an
+                       elliptical lunar polar orbit on 8th November and was placed in the desired 100km
+                       orbit on 12th November. The Chandrayaan-1 mission successfully operated until
+                       28th August, 2009, when a communication failure led to loss of contact and the
+                       mission was called off on 30th August. Chandrayaan-1 marks the beginning of
+                       India's planetary exploration programme initiated by the Indian Space Research
+                       Organization (ISRO). Apart from five Indian built payloads (TMC, HySI, LLRI, HEX and
+                       MIPS), it also carried two Indo-Foreign collaborative payloads (C1XS and SARA) and
+                       four foreign payloads (M3, mini-SAR, SIR-2 and RADOM). Chandrayaan-1 mission
+                       represents a truly international effort in planetary exploration. After reaching the
+                       designated lunar polar orbit and checks of various spacecraft sub-systems and
+                       parameters, the Moon Impact Probe (MIP) was released on 14th November to
+                       reach a designated area near the South Pole. Images captured by the camera on
+                       board MIP allowed identification of its impact point. This followed commissioning
+                       of the scientific payloads. One of the payloads, the Radiation Dose Monitor
+                       (RADOM), was switched on soon after lift-off and the Terrain Mapping Camera
+                       (TMC) was commissioned during one of the early earth bound orbits. The other
+                       eight payloads were commissioned one by one between November 16 and
+                       December 9. The mission operation was relatively smooth until April 26th, 2009,
+                       when the failure of star sensor led to the decision to raise the spacecraft orbit from
+                       100 to 200 km to reduce the number of maneuvers needed for orbit maintenance.
+                       On August 28 2009, loss of communication with the spacecraft led to termination
+                       of the mission.
+                       Mission Objective
+                       - To realize the mission goal of harnessing the science payloads, lunar craft and
+                         the launch vehicle with suitable ground support systems including Deep Space
+                         Network station.
+                       - To realize the integration and testing, launching and achieving lunar polar orbit
+                         of about 100 km, in-orbit operation of experiments, communication/
+                         telecomm and, telemetry data reception, quick look data and archival for
+                         scientific investigation by identified group of scientists.
+        </description>
+    </Investigation>
+</Product_Context>

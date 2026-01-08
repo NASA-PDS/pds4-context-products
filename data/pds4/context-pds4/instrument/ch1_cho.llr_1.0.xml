@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1O00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1O00_2100.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:isro:isda:context:instrument:ch1_cho.llr</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Lunar Laser Ranging Instrument</title>
+        <information_model_version>1.24.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+	<Alias_List>
+      		<Alias>
+        		<alternate_title>LLRI</alternate_title>
+      		</Alias>
+    	</Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2025-05-19</modification_date>
+                <version_id>1.0</version_id>
+                <description>First version</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:isro:isda:context:instrument_host:spacecraft.ch1_cho</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+	<External_Reference>
+      		<reference_text>
+			Kamalakar, JA, Laxmi Prasad, AS, Bhaskar, KVS, Selvaraj, P,
+			Venkateswaran, R, Kalyani, K, Goswami, A and Sridhar Raja, VLN: Lunar
+			Laser Ranging Instrument (LLRI): a tool for the study of topography and
+			gravitational field of the Moon, Current Science, Vol.96, No.4, pp.512-516, 25 February 2009.
+            	</reference_text>
+      		<description>reference.Kamalakaretal</description>
+    	</External_Reference>
+	<External_Reference>
+      		<reference_text>
+			Sridharan, R, Das, Tirtha Pratim, Ahmed, SM, Supriya, Gogulapati,
+			Bhardwaj, Anil and Kamalakar, JA: Spatial heterogeneity in the radiogenic
+			activity of the lunar interior: Inferences from CHACE and LLRI on
+			Chandrayaan-1, Advances in Space Research, Vol.51, No.1, pp.168-178, 1 January 2013.
+            	</reference_text>
+      		<description>reference.Sridharanetal</description>
+    	</External_Reference>
+    </Reference_List>
+    <Instrument>
+        <name>Lunar Laser Ranging Instrument</name>
+	<Type_List_Area>
+		        <ctli:Type_List>
+		        	<ctli:type>Lidar</ctli:type>
+		        </ctli:Type_List>
+    	</Type_List_Area>
+        <description>
+           LLRI (Lunar Laser Ranging Instrument) is one of the scientific instrument hosted 
+           on the Chandrayaan-1 Orbiter. LLRI is a pulsed laser ranging instrument aimed at 
+           enhanced study of the moon's surface. Advantages of the laser instrumentation were 
+           that they can be readily optimized for any given mission scenario. An added advantage 
+           is that they can operate from orbiting spacecraft putting comparatively minimal 
+           requirements on spacecraft resources in terms of mass, size and electrical power. 
+           Being active instruments, laser measurements can be obtained from both the dark 
+           and sunlit portion of the moon, thereby significantly increasing the useful 
+           observational coverage. The LLRI instrument for Chandrayaan-1 is produce a sensor 
+           footprint of approximately 32 m on the lunar surface and capable of making lunar 
+           topography measurements with a resolution of less than 5m.
+	</description>
+    </Instrument>
+</Product_Context>

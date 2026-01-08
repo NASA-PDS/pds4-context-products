@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1O00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1O00_2100.xsd">
+
+    <Identification_Area>
+        <logical_identifier>urn:isro:isda:context:instrument:ch1_cho.tmc</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Terrain Mapping Camera</title>
+        <information_model_version>1.24.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+	<Alias_List>
+      		<Alias>
+        		<alternate_title>TMC</alternate_title>
+      		</Alias>
+    	</Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-01-25</modification_date>
+                <version_id>1.0</version_id>
+                <description>First version</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:isro:isda:context:instrument_host:spacecraft.ch1_cho</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+	<External_Reference>
+      		<reference_text>
+                	Arya, AS, Rajasekhar, RP, Thangjam, Guneshwar, Gujrati, Ashwin,
+                   	Amitabh, Trivedi, Sunanda, Gopala Krishna, B, Ajai and Kiran Kumar, AS:
+                   	Lunar Surface Age Determination Using Chandrayaan-1 TMC Data, Current
+                   	Science, Vol.102, No.5, pp.783-788, 10 March 2012
+            	</reference_text>
+      		<description>reference.Aryaetal</description>
+    	</External_Reference>
+        <External_Reference>
+      		<reference_text>
+			Radhadevi, PV , Solanki, SS , Nagasubramanian, V, Reddy, Sudheer D,
+			Sumanth, T, Krishna, Saibaba J and Varadan, Geeta: An algorithm for
+			geometric correction of full pass TMC imagery of Chandrayaan-1, Planetary
+			and Space Science, Vol.79-80, pp.45-51, May 2013.
+            	</reference_text>
+      		<description>reference.Radhadevietal</description>
+    	</External_Reference>
+	<External_Reference>
+      		<reference_text>
+			Sivakumar, V, Kumar, Binay, Srivastava, Sandeep Kumar, Gopala Krishna,
+			B, Srivastava, Pradeep Kumar and Kiran Kumar, AS: DEM Generation for
+			Lunar Surface using Chandrayaan-1 TMC Triplet Data, Photonirvachak:
+			Journal of the Indian Society of Remote Sensing, Vol.40, No.4, pp.551-564,
+			December 2012
+            	</reference_text>
+      		<description>reference.Sivakumaretal</description>
+    	</External_Reference>
+	<External_Reference>
+      		<reference_text>
+			Singh, Deepak, Srivastava, VK, Bhatt, Jignesh and Bhattacharya, Satadru:
+			Mineralogical Mapping of Lunar Orbits of Chandrayaan-1 Mission using
+			Hyper Spectral Imaging Camera (HySI) and Terrain Mapping Camera (TMC)
+			Data, Photogrammetric Engineering And Remote Sensing, Vol.77, No.1,
+			pp.6-10, January 2011
+            	</reference_text>
+      		<description>reference.Singhetal</description>
+    	</External_Reference>
+	<External_Reference>
+      		<reference_text>
+			Mohammad, Aasim and Bahuguna, I: Depth-diameter ratios of lunar craters
+			from chandrayaan-1 TMC images and DEM and its significance,
+			International Journal of Geomatics and Geosciences, Vol.4, No.4, pp.680-688,
+			October 2014.
+            	</reference_text>
+      		<description>reference.Mohammadetal</description>
+    	</External_Reference>
+        <External_Reference>
+      		<reference_text>
+                	Chauhan, Prakash, Ajai and Kiran Kumar, AS: Chandrayaan-1 captures
+			Halo around Apollo-15 landing site using stereoscopic views from Terrain
+			Mapping Camera, Current Science, Vol.97, No.5, pp.629-630, September 10 2009.
+            	</reference_text>
+      		<description>reference.Chauhanetal</description>
+    	</External_Reference>
+    </Reference_List>
+    <Instrument>
+        <name>Terrain Mapping Camera</name>
+	<Type_List_Area>
+        	<ctli:Type_List>
+          		<ctli:type>Imager</ctli:type>
+        	</ctli:Type_List>
+    	</Type_List_Area>
+        <description>
+            Terrain Mapping Camera (TMC) is one of the 
+            scientific instrument hosted on the Chandrayaan-1 Orbiter. 
+            The instrument is passive electro-optical imaging camera 
+            operating in visible-panchromatic band (500-800nm),
+            comprising three optical sensors Fore, Nadir and Aft 
+            placed with angles of +25 deg, 0 deg and -25 deg to 
+            have three stereo views of the same target as spacecraft 
+            moves along the track.
+	</description>
+    </Instrument>
+</Product_Context>
