@@ -4,16 +4,23 @@
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:psyche.imager</logical_identifier>
-    <version_id>1.2</version_id>
-    <title>The Psyche Imager (PMI) aboard the Psyche spacecraft</title>
+    <version_id>1.3</version_id>
+    <title>The Psyche Multispectral Imager aboard the Psyche spacecraft</title>
     <information_model_version>1.25.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
-        <alternate_title>Psyche Multispectral Imager (PMI)</alternate_title>
+        <alternate_title>Psyche Multispectral Imager</alternate_title>
       </Alias>
     </Alias_List>
     <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-01-22</modification_date>
+        <version_id>1.3</version_id>
+        <description>Per issue 67,
+We request that the PMI acronym be removed from these fields [Identification_Area:title, Instrument:name, Instrument:description], and that "Psyche Imager" be changed to "Psyche Multispectral Imager."
+        </description>
+      </Modification_Detail>
       <Modification_Detail>
         <modification_date>2025-12-24</modification_date>
         <version_id>1.2</version_id>
@@ -38,7 +45,7 @@
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>The Psyche Imager (PMI) aboard the Psyche spacecraft</name>
+    <name>The Psyche Multispectral Imager aboard the Psyche spacecraft</name>
     <Type_List_Area>
       <ctli:Type_List_Set>
         <ctli:Type_List>
@@ -50,6 +57,6 @@
       </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-255110, -255130</naif_instrument_id>
-    <description>The Psyche Multispectral Imager (PMI) provides high-resolution images using filters to discriminate between the asteroid (16) Psyche's metallic and silicate constituents. The instrument consists of a pair of identical cameras designed to acquire geologic, compositional, and topographic data. The purpose of the second camera is to provide redundancy for mission-critical optical navigation.</description>
+    <description>The Psyche Multispectral Imager provides high-resolution images using filters to discriminate between the asteroid (16) Psyche's metallic and silicate constituents. The instrument consists of a pair of identical cameras designed to acquire geologic, compositional, and topographic data. The purpose of the second camera is to provide redundancy for mission-critical optical navigation.</description>
   </Instrument>
 </Product_Context>
