@@ -20,11 +20,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.atlas</lid_reference>
-      <reference_type>telescope_to_investigation</reference_type>
-    </Internal_Reference>
-    
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.atlas-sth</lid_reference>
       <reference_type>telescope_to_facility</reference_type>
     </Internal_Reference>
@@ -45,4 +40,5 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       32.3783°S at the atlas-sth Sutherland Observing Station in Sutherland, South Africa.
     </description>
   </Telescope>
+
 </Product_Context>
