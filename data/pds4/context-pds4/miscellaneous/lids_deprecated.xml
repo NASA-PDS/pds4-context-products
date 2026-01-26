@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Ancillary
     xmlns="http://pds.nasa.gov/pds4/pds/v1"
     xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:miscellaneous:lids_deprecated</logical_identifier>
-    <version_id>1.0</version_id>
+    <version_id>1.1</version_id>
     <title>Deprecated LIDs</title>
-    <information_model_version>1.23.0.0</information_model_version>
+    <information_model_version>1.25.0.0</information_model_version>
     <product_class>Product_Ancillary</product_class>
     <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-01-26</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema to 1P00. Removed version from filename. Added
+urn:nasa:pds:context:facility:observatory.atlas-cpt,2026-01-21,urn:nasa:pds:context:facility:observatory.atlas-sth
+urn:nasa:pds:context:facility:observatory.jac,2021-11-05,urn:nasa:pds:context:facility:observatory.maunakea
+urn:nasa:pds:context:instrument:atlas-cpt.0m5.sta1600,2026-01-21,urn:nasa:pds:context:instrument:atlas-sth.0m5.sta1600
+urn:nasa:pds:context:instrument:m3.ch1-orb,2025-10-08,urn:nasa:pds:context:instrument:m3.ch1-orb
+urn:nasa:pds:context:instrument:mrffr.ch1-orb,2025-10-08,urn:nasa:pds:context:instrument:ch1_cho.mrffr
+urn:nasa:pds:context:instrument:palmer_divide.old10inch.ccd0m5,2025-12-24,urn:nasa:pds:context:instrument:palmer_divide.0m5.ccd0m5
+urn:nasa:pds:context:instrument_host:spacecraft.a17s,2025-01-01,
+urn:nasa:pds:context:instrument_host:spacecraft.ch1-orb,2025-10-10,urn:isro:isda:context:instrument_host:spacecraft.ch1_cho
+urn:nasa:pds:context:instrument_host:spacecraft.slim,2025-09-05,urn:jaxa:darts:context:instrument_host:lander.slim
+urn:nasa:pds:context:investigation:mission.chandrayaan-1,2025-10-10,urn:isro:isda:context:investigation:mission.ch1
+urn:nasa:pds:context:investigation:mission.slim,2025-09-05,urn:jaxa:darts:context:investigation:mission.slim
+urn:nasa:pds:context:investigation:mission.venera_15_and_16,2025-07-02,urn:nasa:pds:context:investigation:mission.venera_16
+urn:nasa:pds:context:telescope:atlas-cpt.0m5,2026-01-21,urn:nasa:pds:context:telescope:atlas-sth.0m5
+urn:nasa:pds:context:telescope:jac.ukirt3m8,2025-01-07,urn:nasa:pds:context:telescope:maunakea.ukirt_3m8
+        </description>
+      </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-12-31</modification_date>
         <version_id>1.0</version_id>
@@ -22,18 +42,18 @@
   <Reference_List/>
   <File_Area_Ancillary>
     <File>
-      <file_name>lids_deprecated_v1.0.csv</file_name>
+      <file_name>lids_deprecated.csv</file_name>
       <comment>List of deprecated LIDs in Table_Delimited format</comment>
     </File>
     <Header>
       <offset unit="byte">0</offset>
-      <object_length unit="byte">651</object_length>
+      <object_length unit="byte">556</object_length>
       <parsing_standard_id>UTF-8 Text</parsing_standard_id>
     </Header>
     <Table_Delimited>
-      <offset unit="byte">651</offset>
+      <offset unit="byte">556</offset>
       <parsing_standard_id>PDS DSV 1</parsing_standard_id>
-      <records>273</records>
+      <records>288</records>
       <record_delimiter>Line-Feed</record_delimiter>
       <field_delimiter>Comma</field_delimiter>
             <Record_Delimited>

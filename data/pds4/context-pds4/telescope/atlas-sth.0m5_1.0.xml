@@ -8,7 +8,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <title>0.5-m f/2 Wright-Schmidt Telescope</title>
     <information_model_version>1.25.0.0</information_model_version>
     <product_class>Product_Context</product_class>
-    
+    <Alias_List>
+        <Alias><alternate_title>urn:nasa:pds:context:telescope:atlas-cpt.0m5</alternate_title></Alias>  <!--deprecated LID-->
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-01-21</modification_date>

@@ -8,7 +8,9 @@
     <title>STA-1600, 10.5x10.5k CCD</title>
     <information_model_version>1.25.0.0</information_model_version>
     <product_class>Product_Context</product_class>
-    
+    <Alias_List>
+      <Alias><alternate_title>urn:nasa:pds:context:instrument:atlas-cpt.0m5.sta160</alternate_title></Alias>  <!--deprecated LID-->
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-01-21</modification_date>

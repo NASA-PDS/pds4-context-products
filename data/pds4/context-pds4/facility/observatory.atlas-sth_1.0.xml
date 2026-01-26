@@ -11,6 +11,9 @@
 
     <Alias_List>
       <Alias>
+        <alternate_id>urn:nasa:pds:context:facility:observatory.atlas-sth</alternate_id>  <!--deprecated LID, never used-->
+      </Alias>
+      <Alias>
         <alternate_id>M22</alternate_id>
         <comment>MPC Observatory Code</comment>
       </Alias>
