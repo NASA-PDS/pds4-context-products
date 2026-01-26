@@ -1,27 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1H00.sch"
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch"
   schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1"
     xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1H00.xsd">
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd">
     
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:miscellaneous</logical_identifier>
-        <version_id>1.0</version_id>
+        <version_id>1.1</version_id>
         <title>Information about context products</title>
-        <information_model_version>1.17.0.0</information_model_version>
+        <information_model_version>1.25.0.0</information_model_version>
         <product_class>Product_Collection</product_class> 
         <Citation_Information>
-            <author_list>PDS Data Design Working Group (DDWG)</author_list>
-            <editor_list>PDS Change Control Board (CCB)</editor_list>
             <publication_year>2021</publication_year>
             <keyword>PDS; PDS4; Context products</keyword>
             <description>various products associated with context products</description>
+            <List_Author>
+                <Organization>
+                    <organization_name>PDS Data Design Working Group (DDWG)</organization_name>
+                </Organization>
+            </List_Author>
+            <List_Editor>
+                <Organization>
+                    <organization_name>PDS Change Control Board (CCB)</organization_name>
+                </Organization>
+            </List_Editor>
         </Citation_Information>
-        
         <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-01-26</modification_date>
+                <version_id>1.1</version_id>
+                <description>Updated schema to 1P00. Updated VID of unpc:miscellaneous:lids_deprecated to 1.1. Replaced author_ and editor_list wit List_Author and _Editor</description>
+            </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2021-12-22</modification_date>
                 <version_id>1.0</version_id>
