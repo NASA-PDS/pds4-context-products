@@ -10,11 +10,16 @@
     
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:target:planetary_system.saturn_system</logical_identifier>
-        <version_id>1.0</version_id>
+        <version_id>1.1</version_id>
         <title>Saturn System</title>
         <information_model_version>1.22.0.0</information_model_version>
         <product_class>Product_Context</product_class>
         <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-02-02</modification_date>
+                <version_id>1.1</version_id>
+                <description>Fix invalid XML.</description>
+            </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2025-02-06</modification_date>
                 <version_id>1.0</version_id>
@@ -57,7 +62,8 @@
             <lid_reference>urn:nasa:pds:context:target:satellite.saturn.titan</lid_reference>
             <reference_type>member_of</reference_type>
             <comment>Saturn satellite.</comment>
-        </Internal_Reference><Internal_Reference>
+        </Internal_Reference>
+        <Internal_Reference>
             <lid_reference>urn:nasa:pds:context:target:satellite.saturn.hyperion</lid_reference>
             <reference_type>member_of</reference_type>
             <comment>Saturn satellite.</comment>
@@ -522,42 +528,42 @@
             <reference_type>member_of</reference_type>
             <comment>F Ring of Saturn.</comment>
         </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:ring.saturn.janusring</lid_reference>
+            <reference_type>member_of</reference_type>
+            <comment>Janus/Epimetheus Ring of Saturn.</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:ring.saturn.g_ring</lid_reference>
+            <reference_type>member_of</reference_type>
+            <comment>G ring of Saturn.</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:ring.saturn.e_ring</lid_reference>
+            <reference_type>member_of</reference_type>
+            <comment>E Ring of Saturn.</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:ring.saturn.methonering</lid_reference>
+            <reference_type>member_of</reference_type>
+            <comment>Methone Ring of Saturn.</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:ring.saturn.anthering</lid_reference>
+            <reference_type>member_of</reference_type>
+            <comment>Anthe Ring of Saturn.</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:ring.saturn.pallenering</lid_reference>
+            <reference_type>member_of</reference_type>
+            <comment>Pallene Ring of Saturn.</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:ring.saturn.phoebering</lid_reference>
+            <reference_type>member_of</reference_type>
+            <comment>Phoebe Ring of Saturn.</comment>
+        </Internal_Reference>
     </Reference_List>
-    <Internal_Reference>
-        <lid_reference>urn:nasa:pds:context:target:ring.saturn.janusring</lid_reference>
-        <reference_type>member_of</reference_type>
-        <comment>Janus/Epimetheus Ring of Saturn.</comment>
-    </Internal_Reference>
-    <Internal_Reference>
-        <lid_reference>urn:nasa:pds:context:target:ring.saturn.g_ring</lid_reference>
-        <reference_type>member_of</reference_type>
-        <comment>G ring of Saturn.</comment>
-    </Internal_Reference>
-    <Internal_Reference>
-        <lid_reference>urn:nasa:pds:context:target:ring.saturn.e_ring</lid_reference>
-        <reference_type>member_of</reference_type>
-        <comment>E Ring of Saturn.</comment>
-    </Internal_Reference>
-    <Internal_Reference>
-        <lid_reference>urn:nasa:pds:context:target:ring.saturn.methonering</lid_reference>
-        <reference_type>member_of</reference_type>
-        <comment>Methone Ring of Saturn.</comment>
-    </Internal_Reference>
-    <Internal_Reference>
-        <lid_reference>urn:nasa:pds:context:target:ring.saturn.anthering</lid_reference>
-        <reference_type>member_of</reference_type>
-        <comment>Anthe Ring of Saturn.</comment>
-    </Internal_Reference>
-    <Internal_Reference>
-        <lid_reference>urn:nasa:pds:context:target:ring.saturn.pallenering</lid_reference>
-        <reference_type>member_of</reference_type>
-        <comment>Pallene Ring of Saturn.</comment>
-    </Internal_Reference>
-    <Internal_Reference>
-        <lid_reference>urn:nasa:pds:context:target:ring.saturn.phoebering</lid_reference>
-        <reference_type>member_of</reference_type>
-        <comment>Phoebe Ring of Saturn.</comment>
-    </Internal_Reference>
     <Target>
         <name>Saturn System</name>
         <type>Planetary System</type>
