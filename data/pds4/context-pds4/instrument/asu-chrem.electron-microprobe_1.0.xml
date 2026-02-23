@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:asu-chrem.electron-microprobe</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>ASU Electron Microprobe</title>
+    <information_model_version>1.25.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-02-20</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial export from OLAF</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:laboratory.asu-chrem</lid_reference>
+      <reference_type>instrument_to_facility</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>ASU Electron Microprobe</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Microscope</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <description>An electron microprobe is an analytical instrument designed to determine the chemical composition of small volumes of solid materials with high precision. By directing a high-energy electron beam onto a sample, the microprobe excites the atoms within the material, causing them to emit characteristic X-rays. These emitted X-rays are then analyzed to identify and quantify the elements present in the sample. The electron microprobe combines two key techniques: Energy Dispersive X-ray Spectroscopy (EDX) and Wavelength Dispersive Spectroscopy (WDS).
+
+EDX provides rapid qualitative and quantitative analysis by detecting X-rays emitted during electron bombardment and identifying elements based on their unique X-ray energies. It is particularly useful for surface analysis and detecting major and minor components in a sample. On the other hand, WDS separates emitted X-rays by their wavelengths using diffraction crystals, offering higher resolution and sensitivity compared to EDX. This enables the detection of trace elements and provides more precise quantitative analysis. WDS is ideal for applications requiring detailed compositional analysis, such as geochemical studies, metallurgical analysis, and distinguishing elements in complex matrices. Together, these techniques make the electron microprobe an invaluable tool for researchers in materials science, geology, and various other fields.</description>
+  </Instrument>
+</Product_Context>
+
