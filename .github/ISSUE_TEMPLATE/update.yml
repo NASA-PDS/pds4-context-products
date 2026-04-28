@@ -1,6 +1,6 @@
 name: Update Context Product Request
 description: "Request to update one or more context products."
-labels: "B17,i&t.skip,operations,task.update"
+labels: "B18,i&t.skip,operations,task.update"
 type: "Task"
 projects: "NASA-PDS/19"
 assignees: rchenatjpl
