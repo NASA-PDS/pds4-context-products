@@ -1,18 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.nh</logical_identifier>
-    <version_id>1.3</version_id>
+    <version_id>1.4</version_id>
     <title>The New Horizons (NH) Spacecraft</title>
-    <information_model_version>1.22.0.0</information_model_version>
+    <information_model_version>1.25.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
-      <Alias>
-        <alternate_title>NEW HORIZONS</alternate_title>
-      </Alias>
+      <Alias><alternate_title>NEW HORIZONS</alternate_title></Alias>
+      <Alias><alternate_title>New Horizons Spacecraft</alternate_title></Alias>
     </Alias_List>
     <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-04-28</modification_date>
+        <version_id>1.4</version_id>
+        <description>Updated DD to 1P00. Added alias New Horizons Spacecraft</description>
+      </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.3</version_id>
