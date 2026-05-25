@@ -1,4 +1,4 @@
-name: Check For Duplicate LIDs
+name: Validate Context Products
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
-  check-duplicates:
+  validate:
     runs-on: ubuntu-latest
     
     steps:
@@ -28,13 +28,12 @@ jobs:
         cd en-ops-utils
         pip install -r requirements.txt
         
-    - name: Run duplicate identifier check
+    - name: Check for duplicate logical_identifiers
       run: |
         cd en-ops-utils
         python bin/context/check_duplicate_identifiers.py --verbose ../data/pds4/context-pds4
-        
-    - name: Check script exit code
-      if: failure()
+
+    - name: Check version_id matches filename suffix
       run: |
-        echo "❌ Duplicate identifiers found in PDS4 context files!"
-        echo "Please review the output above and fix any duplicate logical_identifier values." 
+        cd en-ops-utils
+        python bin/context/check_version_id_filename_match.py ../data/pds4/context-pds4
