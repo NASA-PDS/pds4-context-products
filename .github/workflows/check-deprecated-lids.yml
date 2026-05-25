@@ -21,9 +21,11 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Clone en-ops-utils repository
-      run: |
-        git clone https://github.com/NASA-PDS/en-ops-utils.git
+    - name: Checkout en-ops-utils repository
+      uses: actions/checkout@v4
+      with:
+        repository: NASA-PDS/en-ops-utils
+        path: en-ops-utils
 
     - name: Install requirements
       run: |
