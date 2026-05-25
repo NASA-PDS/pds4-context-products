@@ -33,9 +33,9 @@ jobs:
     - name: Check for duplicate logical_identifiers
       run: |
         cd en-ops-utils
-        python bin/context/check_duplicate_identifiers.py --verbose ../data/pds4/context-pds4
+        python scripts/context/check_duplicate_identifiers.py --verbose ../data/pds4/context-pds4
 
     - name: Check version_id matches filename suffix
       run: |
         cd en-ops-utils
-        python bin/context/check_version_id_filename_match.py ../data/pds4/context-pds4
+        python scripts/context/check_version_id_filename_match.py ../data/pds4/context-pds4
