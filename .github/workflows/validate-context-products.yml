@@ -23,6 +23,7 @@ jobs:
       uses: actions/checkout@v6
       with:
         repository: NASA-PDS/en-ops-utils
+        ref: main
         path: en-ops-utils
         
     - name: Install requirements
