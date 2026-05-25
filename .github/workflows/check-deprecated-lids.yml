@@ -35,5 +35,5 @@ jobs:
     - name: Run deprecated LID check
       run: |
         cd en-ops-utils
-        python bin/context/check_deprecated_lids.py \
+        python scripts/context/check_deprecated_lids.py \
           ../data/pds4/context-pds4/miscellaneous/lids_deprecated.csv
