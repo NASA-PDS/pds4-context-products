@@ -1,0 +1,40 @@
+name: Check Deprecated LIDs Removed From API
+
+on:
+  push:
+    branches:
+      - '**'
+    paths:
+      - 'data/pds4/context-pds4/miscellaneous/lids_deprecated.csv'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  check-deprecated-lids:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout current repository
+      uses: actions/checkout@v6
+
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.11'
+
+    - name: Checkout en-ops-utils repository
+      uses: actions/checkout@v6
+      with:
+        repository: NASA-PDS/en-ops-utils
+        ref: main
+        path: en-ops-utils
+
+    - name: Install requirements
+      run: |
+        cd en-ops-utils
+        pip install -r requirements.txt
+
+    - name: Run deprecated LID check
+      run: |
+        cd en-ops-utils
+        python scripts/context/check_deprecated_lids.py \
+          ../data/pds4/context-pds4/miscellaneous/lids_deprecated.csv
