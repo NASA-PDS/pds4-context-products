@@ -1,40 +1,37 @@
-name: Check For Duplicate LIDs
+name: Check Deprecated LIDs Removed From API
 
 on:
   push:
-      branches:
-          -   '**'
+    branches:
+      - '**'
+    paths:
+      - 'data/pds4/context-pds4/miscellaneous/lids_deprecated.csv'
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
-  check-duplicates:
+  check-deprecated-lids:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout current repository
       uses: actions/checkout@v4
-      
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-        
+
     - name: Clone en-ops-utils repository
       run: |
         git clone https://github.com/NASA-PDS/en-ops-utils.git
-        
+
     - name: Install requirements
       run: |
         cd en-ops-utils
         pip install -r requirements.txt
-        
-    - name: Run duplicate identifier check
+
+    - name: Run deprecated LID check
       run: |
         cd en-ops-utils
-        python bin/context/check_duplicate_identifiers.py --verbose ../data/pds4/context-pds4
-        
-    - name: Check script exit code
-      if: failure()
-      run: |
-        echo "❌ Duplicate identifiers found in PDS4 context files!"
-        echo "Please review the output above and fix any duplicate logical_identifier values." 
+        python bin/context/check_deprecated_lids.py \
+          ../data/pds4/context-pds4/miscellaneous/lids_deprecated.csv
