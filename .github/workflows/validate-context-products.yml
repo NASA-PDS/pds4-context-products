@@ -1,0 +1,42 @@
+name: Validate Context Products
+
+on:
+  push:
+      branches:
+          -   '**'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout current repository
+      uses: actions/checkout@v6
+      
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.11'
+        
+    - name: Checkout en-ops-utils repository
+      uses: actions/checkout@v6
+      with:
+        repository: NASA-PDS/en-ops-utils
+        ref: main
+        path: en-ops-utils
+        
+    - name: Install requirements
+      run: |
+        cd en-ops-utils
+        pip install -r requirements.txt
+        
+    - name: Check for duplicate logical_identifiers
+      run: |
+        cd en-ops-utils
+        python scripts/context/check_duplicate_identifiers.py --verbose ../data/pds4/context-pds4
+
+    - name: Check version_id matches filename suffix
+      run: |
+        cd en-ops-utils
+        python scripts/context/check_version_id_filename_match.py ../data/pds4/context-pds4
