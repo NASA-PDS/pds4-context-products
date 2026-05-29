@@ -15,6 +15,7 @@ urn:nasa:pds:context:facility:observatory.mauna_kea,2021-12-07,urn:nasa:pds:cont
 urn:nasa:pds:context:facility:observatory.valle_d'aosta,2025-05-16,urn:nasa:pds:context:facility:observatory.valle_d_aosta
 urn:nasa:pds:context:instrument_host:spacecraft.a17s,2025-01-01,
 urn:nasa:pds:context:instrument_host:spacecraft.ch1-orb,2025-10-10,urn:isro:isda:context:instrument_host:spacecraft.ch1_cho
+urn:nasa:pds:context:instrument_host:spacecraft.chandrayaan-3_vikram,2026-05-22,urn:isro:isda:ch3_chl:context:spacecraft.chandrayaan3lander
 urn:nasa:pds:context:instrument_host:spacecraft.gio,2021-02-24,urn:esa:psa:context:instrument_host:spacecraft.gio
 urn:nasa:pds:context:instrument_host:spacecraft.hp,2021-02-24,urn:esa:psa:context:instrument_host:spacecraft.hp
 urn:nasa:pds:context:instrument_host:spacecraft.iue,2021-02-24,urn:esa:psa:context:instrument_host:spacecraft.iue
@@ -38,6 +39,7 @@ urn:nasa:pds:context:instrument:b-star.clem1,2021-02-24,urn:nasa:pds:context:ins
 urn:nasa:pds:context:instrument:cdd.pioneer_8,2019-11-18,urn:nasa:pds:context:instrument:cdd.p8
 urn:nasa:pds:context:instrument:cdd.pioneer_9,2019-11-18,urn:nasa:pds:context:instrument:cdd.p9
 urn:nasa:pds:context:instrument:cfi.con,2021-02-24,urn:nasa:pds:context:instrument:con.cfi
+urn:nasa:pds:context:instrument:chandrayaan-3_vikram.lra,2026-05-22,
 urn:nasa:pds:context:instrument:cida.con,2021-02-24,urn:nasa:pds:context:instrument:con.cida
 urn:nasa:pds:context:instrument:cida.sdu,2021-02-24,urn:nasa:pds:context:instrument:sdu.cida
 urn:nasa:pds:context:instrument:cosima.ro,2021-02-24,urn:esa:psa:context:instrument:ro.cosima
@@ -258,6 +260,7 @@ urn:nasa:pds:context:instrument:vhm-fgm.uly,2021-02-24,urn:esa:psa:context:instr
 urn:nasa:pds:context:instrument:virtis.ro,2021-02-24,urn:esa:psa:context:instrument:ro.virtis
 urn:nasa:pds:context:instrument:wfpc2.hst,2021-02-24,urn:nasa:pds:context:instrument:hst.wfpc2
 urn:nasa:pds:context:investigation:mission.chandrayaan-1,2025-10-10,urn:isro:isda:context:investigation:mission.ch1
+urn:nasa:pds:context:investigation:mission.chandrayaan-3,2026-05-22,urn:isro:isda:ch3_chr:context:mission.chandrayaan-3
 urn:nasa:pds:context:investigation:mission.giotto_extended_mission,2021-02-24,urn:esa:psa:context:investigation:mission.giotto_extended_mission
 urn:nasa:pds:context:investigation:mission.giotto,2021-02-24,urn:esa:psa:context:investigation:mission.giotto
 urn:nasa:pds:context:investigation:mission.international_rosetta_mission,2021-02-24,urn:esa:psa:context:investigation:mission.international_rosetta_mission
