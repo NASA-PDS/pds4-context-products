@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Checkout current repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     - name: Set up Python
       uses: actions/setup-python@v6
@@ -22,7 +22,7 @@ jobs:
         python-version: '3.11'
 
     - name: Checkout en-ops-utils repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         repository: NASA-PDS/en-ops-utils
         ref: main

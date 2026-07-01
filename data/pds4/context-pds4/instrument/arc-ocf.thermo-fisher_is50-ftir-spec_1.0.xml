@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1P00_2300.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:arc-ocf.thermo-fisher_is50-ftir-spec</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Thermo Fisher iS50 FTIR Spectrometer</title>
+    <information_model_version>1.25.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-04-14</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Initial creation of the context product. 
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:laboratory.arc-ocf</lid_reference>
+      <reference_type>instrument_to_facility</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Thermo Fisher iS50 FTIR Spectrometer</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+        <ctli:subtype>Visible</ctli:subtype>
+        <ctli:subtype>Near-Infrared</ctli:subtype>
+        <ctli:subtype>Infrared</ctli:subtype>
+        <ctli:subtype>Far-Infrared</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <description>The Thermo Fisher iS50 FTIR spectrometer allows spectroscopic characterization of the spectral properties of samples from 
+      0.6 to 200 µm (17,000–50 cm–1). This wide wavelength range is made possible by the availability of four different detectors [Si (visible, 
+      Vis), TEC-InGaAs (near infrared, NIR), DLaTGS-KBr (mid-infrared, MIR), DLaTGS-Polyethylene (far infrared, FIR)] and  four different 
+      beamsplitters [Quartz (Vis), CaF2 (NIR), KBr (MIR), Solid Substrate (FIR)]. An automated exchanger allows full spectral coverage without 
+      breaking purge. The spectra can be measured with a resolution as low as 0.5 cm-1. Two Harrick Scientific accessories, the Variable Angle 
+      Transmission Accessory (VATA) and the SEAGULL variable angle reflectance accessory, can be coupled to the FTIR spectrometer to allow the 
+      characterization of the optical properties of solid samples, over a broad range of incidence and emittance angles, from 0° to 90° for the 
+      VATA accessory, and from 5° to 85° for the SEAGULL accessory. The VATA and SEAGULL accessories enable the characterization of the angular 
+      light distribution in both transmission and reflection measurements.</description>
+  </Instrument>
+</Product_Context>

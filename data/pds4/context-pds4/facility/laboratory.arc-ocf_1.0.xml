@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:facility:laboratory.arc-ocf</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>NASA Ames - Optical Constants Facility (OCF)</title>
+    <information_model_version>1.24.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-04-13</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Initial version.
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:individual.lab_atm-opt-const-titan</lid_reference>
+      <reference_type>facility_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:arc-ocf.flimetrics-kla_f40-uvx</lid_reference>
+      <reference_type>facility_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:arc-ocf.thermo-fisher_is50-ftir-spec</lid_reference>
+      <reference_type>facility_to_instrument</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <Facility>
+    <name>NASA Ames - Optical Constants Facility (OCF)</name>
+    <type>Laboratory</type>
+    <description>The Optical Constants Facility (OCF) was developed to characterize the spectral properties of non-homogeneous refractory solid 
+      samples, using transmission and reflection measurements, and determine their optical constants, from the near ultraviolet (NUV) to far infrared (FIR). 
+      Optical constants are the real and imaginary parts of the complex refractive index, respectively n and k, of a material: N = n + ik. They describe how 
+      a material interacts with incident light, including transmission, reflection, refraction, absorption, and scattering. Both real and imaginary indices 
+      vary with wavelength. Optical constants are fundamental input parameters for models (e.g., radiative transfer, atmospheric, and reflectance spectral 
+      models) used to interpret observational data returned from space missions and ground-based observatories. The OCF is composed of a Filmetrics-KLA F40-UVX 
+      reflectance microscope covering 0.2 to 1.7 µm and a Thermo Fisher iS50 Fourier-transform Infrared (FTIR) spectrometer covering 0.6 to 200 µm (thanks to 4 
+      detectors and 4 beamsplitters); as well as two Harrick Scientific variable angle transmission (VATA, 0° to 90°) and reflection (SEAGULL, 5° to 85°) 
+      accessories that can be coupled to the iS50 FTIR, enabling the characterization of the angular light distribution in both transmission and reflection. 
+      OCF is located at NASA Ames Research Center, Moffett Field, CA 94035, USA.
+    </description>
+  </Facility>
+</Product_Context>
