@@ -1,0 +1,8 @@
+P,urn:jaxa:darts:context:instrument_host:lander.mascot::1.3
+P,urn:jaxa:darts:context:instrument_host:lander.slim::1.1
+P,urn:jaxa:darts:context:instrument_host:rover.minerva2-1_hibou::1.1
+P,urn:jaxa:darts:context:instrument_host:rover.minerva2-1_owl::1.1
+P,urn:jaxa:darts:context:instrument_host:rover.minerva2-2_ulula::1.1
+P,urn:jaxa:darts:context:instrument_host:spacecraft.dcam3::1.2
+P,urn:jaxa:darts:context:instrument_host:spacecraft.hyb2::1.2
+P,urn:jaxa:darts:context:instrument_host:spacecraft.vco::1.2
