@@ -20,7 +20,7 @@
       <Modification_Detail>
         <modification_date>2026-07-07</modification_date>
         <version_id>2.2</version_id>
-        <description>Removed duplicate Internal_Reference entries from Reference_List.</description>
+        <description>Removed duplicate Internal_Reference entries from Reference_List. Also corrected a data error: the reference to urn:nasa:pds:context:instrument:vsp.lcross had reference_type investigation_to_target, but vsp.lcross is an instrument, not a target; corrected to investigation_to_instrument.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-08-08</modification_date>
