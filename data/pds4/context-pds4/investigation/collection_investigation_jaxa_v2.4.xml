@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.sch"
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch"
     schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1         https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1O00.xsd">
+<Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1         https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd">
     <Identification_Area>
         <logical_identifier>urn:jaxa:darts:context:investigation</logical_identifier>
-        <version_id>2.3</version_id>
+        <version_id>2.4</version_id>
         <title>urn:JAXA:DARTS:context:investigation:* context products</title>
-        <information_model_version>1.24.0.0</information_model_version>
+        <information_model_version>1.25.0.0</information_model_version>
         <product_class>Product_Collection</product_class>
         <Citation_Information>
-            <publication_year>2025</publication_year>
+            <publication_year>2026</publication_year>
             <description>The PDS4 Context Products for JAXA investigations, e.g. Hayabusa2, Venus Climate Orbiter</description>
             <List_Author>
                 <Organization>
@@ -23,6 +23,14 @@
             </List_Editor>
         </Citation_Information>
         <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-07-08</modification_date>
+                <version_id>2.4</version_id>
+                <description>added:
+  P,urn:jaxa:darts:context:investigation:mission.slim::1.1
+dropped:
+  P,urn:jaxa:darts:context:investigation:mission.slim::1.0</description>
+            </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2025-09-10</modification_date>
                 <version_id>2.3</version_id>
@@ -75,11 +83,11 @@ added:
     </Collection>
     <File_Area_Inventory>
         <File>
-            <file_name>collection_investigation_jaxa_v2.3.csv</file_name>
-            <creation_date_time>2025-09-10T10:43:48Z</creation_date_time>
+            <file_name>collection_investigation_jaxa_v2.4.csv</file_name>
+            <creation_date_time>2026-07-08T21:43:30Z</creation_date_time>
             <file_size unit="byte">173</file_size>
             <records>3</records>
-            <md5_checksum>a428546b85841418d08c009d6a5ae220</md5_checksum>
+            <md5_checksum>bf3821d63f6958ec001892ba91310463</md5_checksum>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>

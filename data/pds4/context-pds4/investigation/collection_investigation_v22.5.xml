@@ -4,7 +4,7 @@
 <Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1         https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd">
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:investigation</logical_identifier>
-        <version_id>22.4</version_id>
+        <version_id>22.5</version_id>
         <title>urn:nasa:pds:context:investigation:* context products</title>
         <information_model_version>1.25.0.0</information_model_version>
         <product_class>Product_Collection</product_class>
@@ -23,6 +23,39 @@
             </List_Editor>
         </Citation_Information>
         <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-07-08</modification_date>
+                <version_id>22.5</version_id>
+                <description>added:
+  P,urn:nasa:pds:context:investigation:individual.frankenspectra::2.2
+  P,urn:nasa:pds:context:investigation:individual.greeley_35mm_slides::2.2
+  P,urn:nasa:pds:context:investigation:individual.lab_atm-opt-const-titan::1.0
+  P,urn:nasa:pds:context:investigation:individual.lunar_simulants_fuv_reflectance_gimar_22::2.2
+  P,urn:nasa:pds:context:investigation:individual.xas_synthesized_glasses::2.2
+  P,urn:nasa:pds:context:investigation:mission.apex::1.0
+  P,urn:nasa:pds:context:investigation:mission.apollo_17::2.3
+  P,urn:nasa:pds:context:investigation:mission.cassini-huygens::1.5
+  P,urn:nasa:pds:context:investigation:mission.dscovr::1.0
+  P,urn:nasa:pds:context:investigation:mission.venera_15::1.1
+  P,urn:nasa:pds:context:investigation:mission.venera_16::1.1
+  P,urn:nasa:pds:context:investigation:mission.voyager::1.3
+  P,urn:nasa:pds:context:investigation:observing_campaign.atlas::1.1
+  P,urn:nasa:pds:context:investigation:other_investigation.relab_speclib::2.2
+dropped:
+  P,urn:nasa:pds:context:investigation:individual.frankenspectra::2.1
+  P,urn:nasa:pds:context:investigation:individual.greeley_35mm_slides::2.1
+  P,urn:nasa:pds:context:investigation:individual.lunar_simulants_fuv_reflectance_gimar_22::2.1
+  P,urn:nasa:pds:context:investigation:individual.xas_synthesized_glasses::2.1
+  P,urn:nasa:pds:context:investigation:mission.apollo_17::2.1
+  P,urn:nasa:pds:context:investigation:mission.cassini-huygens::1.4
+  P,urn:nasa:pds:context:investigation:mission.chandrayaan-3::1.0
+  P,urn:nasa:pds:context:investigation:mission.pre-magellan::1.2
+  P,urn:nasa:pds:context:investigation:mission.venera_15::1.0
+  P,urn:nasa:pds:context:investigation:mission.venera_16::1.0
+  P,urn:nasa:pds:context:investigation:mission.voyager::1.2
+  P,urn:nasa:pds:context:investigation:observing_campaign.atlas::1.0
+  P,urn:nasa:pds:context:investigation:other_investigation.relab_speclib::2.1</description>
+            </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2026-01-06</modification_date>
                 <version_id>22.4</version_id>
@@ -577,16 +610,16 @@ added:
     </Collection>
     <File_Area_Inventory>
         <File>
-            <file_name>collection_investigation_v22.4.csv</file_name>
-            <creation_date_time>2026-01-07T02:39:11Z</creation_date_time>
-            <file_size unit="byte">9283</file_size>
-            <records>134</records>
-            <md5_checksum>4d81e650a7db30e121e781e70fae381a</md5_checksum>
+            <file_name>collection_investigation_v22.5.csv</file_name>
+            <creation_date_time>2026-07-08T21:43:30Z</creation_date_time>
+            <file_size unit="byte">9346</file_size>
+            <records>135</records>
+            <md5_checksum>10303f1ef3f1715a3fc5ed3bd5ce6522</md5_checksum>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>
             <parsing_standard_id>PDS DSV 1</parsing_standard_id>
-            <records>134</records>
+            <records>135</records>
             <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
             <field_delimiter>Comma</field_delimiter>
             <Record_Delimited>

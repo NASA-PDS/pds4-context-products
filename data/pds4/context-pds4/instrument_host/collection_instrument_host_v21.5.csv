@@ -16,7 +16,6 @@ P,urn:nasa:pds:context:instrument_host:spacecraft.a16s::1.2
 P,urn:nasa:pds:context:instrument_host:spacecraft.a17a::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.a17c::1.2
 P,urn:nasa:pds:context:instrument_host:spacecraft.a17l::1.2
-P,urn:nasa:pds:context:instrument_host:spacecraft.chandrayaan-3_vikram::1.0
 P,urn:nasa:pds:context:instrument_host:spacecraft.clem1::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.clipper::2.0
 P,urn:nasa:pds:context:instrument_host:spacecraft.clps_to_19d_bgl::1.0
@@ -30,6 +29,7 @@ P,urn:nasa:pds:context:instrument_host:spacecraft.dawn::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.dif::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.dii::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.ds1::1.3
+P,urn:nasa:pds:context:instrument_host:spacecraft.dscovr::1.0
 P,urn:nasa:pds:context:instrument_host:spacecraft.go::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.gp::1.2
 P,urn:nasa:pds:context:instrument_host:spacecraft.grail-a::1.3
@@ -43,7 +43,7 @@ P,urn:nasa:pds:context:instrument_host:spacecraft.jno::2.4
 P,urn:nasa:pds:context:instrument_host:spacecraft.kaguya::1.1
 P,urn:nasa:pds:context:instrument_host:spacecraft.ladee::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.lcross::1.2
-P,urn:nasa:pds:context:instrument_host:spacecraft.liciacube::1.2
+P,urn:nasa:pds:context:instrument_host:spacecraft.liciacube::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.lp::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.lro::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.lt::1.1
@@ -68,7 +68,7 @@ P,urn:nasa:pds:context:instrument_host:spacecraft.msl::1.2
 P,urn:nasa:pds:context:instrument_host:spacecraft.msx::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.near::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.neas::1.1
-P,urn:nasa:pds:context:instrument_host:spacecraft.nh::1.3
+P,urn:nasa:pds:context:instrument_host:spacecraft.nh::1.4
 P,urn:nasa:pds:context:instrument_host:spacecraft.ody::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.orex::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.p10::1.2
@@ -105,8 +105,8 @@ P,urn:nasa:pds:context:instrument_host:spacecraft.v8::1.0
 P,urn:nasa:pds:context:instrument_host:spacecraft.v9::1.1
 P,urn:nasa:pds:context:instrument_host:spacecraft.vega1::1.4
 P,urn:nasa:pds:context:instrument_host:spacecraft.vega2::1.4
-P,urn:nasa:pds:context:instrument_host:spacecraft.vg1::1.4
-P,urn:nasa:pds:context:instrument_host:spacecraft.vg2::1.4
+P,urn:nasa:pds:context:instrument_host:spacecraft.vg1::1.5
+P,urn:nasa:pds:context:instrument_host:spacecraft.vg2::1.5
 P,urn:nasa:pds:context:instrument_host:spacecraft.vl1::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.vl2::1.4
 P,urn:nasa:pds:context:instrument_host:spacecraft.vo1::1.2
