@@ -4,7 +4,7 @@
 <Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1         https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd">
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:investigation</logical_identifier>
-        <version_id>22.5</version_id>
+        <version_id>22.6</version_id>
         <title>urn:nasa:pds:context:investigation:* context products</title>
         <information_model_version>1.25.0.0</information_model_version>
         <product_class>Product_Collection</product_class>
@@ -23,6 +23,14 @@
             </List_Editor>
         </Citation_Information>
         <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-07-11</modification_date>
+                <version_id>22.6</version_id>
+                <description>added:
+  P,urn:nasa:pds:context:investigation:mission.bopps::1.2
+dropped:
+  P,urn:nasa:pds:context:investigation:mission.bopps::1.1</description>
+            </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2026-07-08</modification_date>
                 <version_id>22.5</version_id>
@@ -610,11 +618,11 @@ added:
     </Collection>
     <File_Area_Inventory>
         <File>
-            <file_name>collection_investigation_v22.5.csv</file_name>
+            <file_name>collection_investigation_v22.6.csv</file_name>
             <creation_date_time>2026-07-08T21:43:30Z</creation_date_time>
             <file_size unit="byte">9346</file_size>
             <records>135</records>
-            <md5_checksum>10303f1ef3f1715a3fc5ed3bd5ce6522</md5_checksum>
+            <md5_checksum>2c8401e09f3e1de475bd7aada205c15e</md5_checksum>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>
