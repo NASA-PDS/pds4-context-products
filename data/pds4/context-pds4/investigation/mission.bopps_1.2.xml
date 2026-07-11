@@ -3,7 +3,7 @@
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.bopps</logical_identifier>
-    <version_id>1.1</version_id>
+    <version_id>1.2</version_id>
     <title>Balloon Observation Platform for Planetary Science</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
@@ -13,6 +13,11 @@
       </Alias>
     </Alias_List>
     <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-07-11</modification_date>
+        <version_id>1.2</version_id>
+        <description>Added investigation_to_instrument_host reference to BOPPS gondola (urn:nasa:pds:context:airborne:balloon.bopps).</description>
+      </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-12-29</modification_date>
         <version_id>1.1</version_id>
@@ -28,6 +33,10 @@
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:airborne:balloon.bopps</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:bopps2014:document:mission_overview</lid_reference>
       <reference_type>context_to_associate</reference_type>
