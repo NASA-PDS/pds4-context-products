@@ -668,7 +668,6 @@ added:
             <creation_date_time>2026-07-08T21:43:30Z</creation_date_time>
             <file_size unit="byte">7058</file_size>
             <records>115</records>
-            <md5_checksum>4ef92fdfb36052cfccaa900e49045c2a</md5_checksum>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>
