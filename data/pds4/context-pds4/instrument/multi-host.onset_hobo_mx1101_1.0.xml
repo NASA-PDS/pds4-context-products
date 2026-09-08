@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1Q00_2300.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://pds.nasa.gov/pds4/pds/v1
+            https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd
+            http://pds.nasa.gov/pds4/ctli/v2 
+            https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1Q00_2300.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument:multi-host.onset_hobo_mx1101</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>HOBO MX1101 Data Logger</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-07-14</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Instrument>
+        <name>HOBO MX1101 Data Logger</name>
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Temperature Sensor</ctli:type> 
+            </ctli:Type_List>
+        </Type_List_Area>        
+        <description>
+            The HOBO MX1101 by Onset Computer Corporation is a compact, battery-powered data logger that measures and records 
+            ambient temperature, dew point, and relative humidity. 
+            
+            This is a "multi-instance" and "multi-host" instrument, meaning not a specific instrument but rather a type or model of
+            instrument that may be used many times across one or more missions and is not associated with any specific host.  Each
+            of these instruments are functionally identical, although they may have instance-specific calibration information.
+        </description>
+    </Instrument>
+</Product_Context>
