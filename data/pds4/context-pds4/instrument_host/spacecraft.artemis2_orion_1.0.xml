@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://pds.nasa.gov/pds4/pds/v1
+    https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.artemis2_orion</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Artemis 2 Orion spacecraft</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_title>Artemis II Orion spacecraft</alternate_title>
+            </Alias>
+            <Alias>
+                <alternate_title>Integrity</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-07-24</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+            <reference_type>instrument_host_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+            <reference_type>instrument_host_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:mission.artemis2</lid_reference>
+            <reference_type>instrument_host_to_investigation</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.saw</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>
+        </Internal_Reference>       
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.opnav</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.docking_camera</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.cab</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.nikon_d5</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>
+            <comment>
+                (instance_id=nkd5015 serial_number=3500015), (instance_id=nkd5017 serial_number=3500017)
+                Due to its proven reliability and ability to withstand the ionizing radiation and
+                thermal stresses of low Earth orbit, NASA has integrated unmodified D5 units into its standard
+                flight kit for the International Space Station (ISS) and astronaut training at Johnson Space Center.
+                The Artemis II mission carried two Nikon D5 cameras that were used by the crew as the primary
+                handheld cameras for lunar flyby observations with improved ability for human-eye observations
+                through the long lens over more modern mirrorless cameras.
+            </comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.onset_hobo_mx1101</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>
+            <comment>
+                (instance_id=1104 serial_number=22238223), (instance_id=1105 serial_number=22238221)
+                The HOBO MX1101 by Onset Computer Corporation is a compact, battery-powered data logger that measures 
+                and records ambient temperature and relative humidity. On Artemis II, two were used to measure 
+                temperature, dew point, and relative humidity to characterize the storage compartments (Lockers D/E) 
+                within Orion throughout the mission, informing future sample return storage conditions.
+            </comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.nikon_z9</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>
+            <comment>
+                instance_id=nkz9019 serial_number=3920019
+                Continuing the Nikon legacy in space exploration, the Z9 serves as the technical core of the Handheld 
+                Universal Lunar Camera (HULC) for future Artemis missions, where its specialized firmware and hardware 
+                modifications manage the intense ionizing radiation and thermal fluctuations of the lunar environment. 
+                
+                The Artemis II mission carried one Nikon Z9 camera that was used by the crew for shortlens imaging during the 
+                mission and for performance testing for use on future Artemis missions.
+            </comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.microsoft_surface_pro_5</lid_reference> 
+            <reference_type>instrument_host_to_instrument</reference_type>
+            <comment>
+                (instance_id=pcd1), (instance_id=pcd2), (instance_id=pcd3), (instance_id=pcd4)
+                The Portable Computing Device (PCD) is a Microsoft Surface Pro 5 tablet used by the Artemis II crew members during the mission. 
+                Artemis II carried four PCD tablets during the mission (PCD1, PCD2, PCD3, and PCD4). The primary uses of the PCD were 1) to 
+                record audio recordings of crew observations as captured by the Peltor Headset and PCD Audio Recorder), 2) record handwritten 
+                crew notes/observations, 3) serve as an imagery relay so that imagery can be downlinked during the mission to the flight 
+                control team and 4) provide the Lunar Target Guide to support lunar observations. 
+            </comment>
+        </Internal_Reference>       
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.apple_iphone_17</lid_reference>
+            <reference_type>instrument_host_to_instrument</reference_type>            
+        </Internal_Reference> 
+    </Reference_List>
+    <Instrument_Host>
+        <name>Artemis 2 Orion spacecraft</name>
+        <type>Spacecraft</type>
+        <naif_host_id>-24</naif_host_id>
+        <description> 
+            The Orion spacecraft (named Integrity by the Artemis II crew) is NASA's deep-space vehicle designed to 
+            carry and support up to four astronauts as part of the Artemis program's return to the Moon. The 
+            spacecraft consists of the U.S. Crew Module and European Service Module, together equipped with life 
+            support systems, radiation protection, heat shield, propulsion system with 33 engines, and deep space 
+            communications and navigation.
+        </description>
+    </Instrument_Host>
+</Product_Context>

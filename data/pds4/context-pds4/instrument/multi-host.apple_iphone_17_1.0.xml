@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1Q00_2300.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://pds.nasa.gov/pds4/pds/v1
+            https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd
+            http://pds.nasa.gov/pds4/ctli/v2 
+            https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1Q00_2300.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument:multi-host.apple_iphone_17</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Apple iPhone 17</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-07-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Instrument>
+        <name>Apple iPhone 17</name>
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Imager</ctli:type>
+            </ctli:Type_List>
+        </Type_List_Area>        
+        <description>
+            The Apple iPhone 17 is a premium smartphone featuring an aluminum frame and a color-infused, frosted glass back.
+            It is equipped with a 6.3-inch Super Retina XDR OLED display that integrates 120Hz ProMotion fluid scrolling,
+            Always-On functionality, and a protective Ceramic Shield 2 front glass built for high scratch resistance. The
+            device features a 48MP Dual Fusion rear camera system, composed of a main lens with optical-quality 2x zoom and
+            an ultra-wide lens, complemented by a landscape-capable 18MP Center Stage front-facing selfie camera.
+            
+            Internally, the device runs on the A19 chip, which features a 6-core CPU, a 5-core GPU, and a 16-core Neural
+            Engine designed to seamlessly process local AI workflows and high-end gaming. Power efficiency is enhanced by
+            a custom N1 networking chip that supports Wi-Fi 7 and Bluetooth 6 connectivity. Starting at a base storage
+            capacity of 256GB, the phone includes a physical Camera Control button, an IP68 water-resistance rating, and
+            a battery engineered for all-day usage with up to 30 hours of video playback.
+            
+            This is a "multi-instance" and "multi-host" instrument, meaning not a specific instrument but rather a type or model of
+            instrument that may be used many times across one or more missions and is not associated with any specific host.  Each
+            of these instruments are functionally identical, although they may have instance-specific calibration information.
+        </description>
+    </Instrument>
+</Product_Context>

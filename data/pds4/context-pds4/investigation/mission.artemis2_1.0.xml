@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://pds.nasa.gov/pds4/pds/v1
+            https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:mission.artemis2</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Artemis 2 Mission</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_title>Artemis II Mission</alternate_title>              
+            </Alias>          
+            <Alias>
+                <alternate_title>A2</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-06-19</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.artemis2_orion</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+    </Reference_List>
+    <Investigation>
+        <name>Artemis 2 Mission</name>
+        <type>Mission</type>
+        <start_date>2026-04-01</start_date>
+        <stop_date>2026-04-10</stop_date>
+        <description>
+            The Artemis II mission was the first crewed test mission under NASA's Artemis program. On April 1, 2026, 
+            four astronauts launched aboard the Orion spacecraft on the Space Launch System (SLS) rocket for a nearly 
+            10-day voyage around the Moon. The Artemis II crew members were NASA astronauts Reid Wiseman (Commander), 
+            Victor Glover (Pilot), and Christina Koch (Mission Specialist 1), along with CSA (Canadian Space Agency) 
+            astronaut Jeremy Hansen (Mission Specialist 2). Science observations included opportunistic imaging and 
+            observations around Earth and during transit to the Moon on Flight Days 1 to 5, Lunar Flyby on Flight Day 
+            6, and additional opportunistic imaging during the return to Earth on Flight Days 7 to 10. After traveling 
+            more than 695,000 miles, the crew members splashed down on April 10, 2026 in the Pacific Ocean off the 
+            coast of San Diego, California. At their farthest point, the crew traveled 252,756 miles from Earth, 
+            setting a record for the greatest distance humans have traveled in space.
+        </description>
+    </Investigation>
+</Product_Context>
