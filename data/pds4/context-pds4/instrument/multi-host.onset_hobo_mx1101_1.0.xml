@@ -41,7 +41,7 @@
             
             This is a "multi-instance" and "multi-host" instrument, meaning not a specific instrument but rather a type or model of
             instrument that may be used many times across one or more missions and is not associated with any specific host.  Each
-            of these instruments are functionally identical, although they may have instance-specific calibration information.
+            of these instruments is functionally identical though may have instance-specific calibration information.
         </description>
     </Instrument>
 </Product_Context>
