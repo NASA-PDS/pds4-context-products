@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1Q00_2500.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://pds.nasa.gov/pds4/pds/v1
+            https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd
+            http://pds.nasa.gov/pds4/ctli/v2 
+            https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1Q00_2500.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument:multi-host.microsoft_surface_pro_5</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Microsoft Surface Pro 5</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-06-19</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Instrument>
+        <name>Microsoft Surface Pro 5</name>
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Electronic Field Notebook</ctli:type>
+                <ctli:subtype>Microphone</ctli:subtype>
+            </ctli:Type_List>
+        </Type_List_Area>        
+        <description>
+            Surface Pro (5th Gen) is a versatile 12.3-inch PixelSense touchscreen 2-in-1 that works as a laptop, tablet, or
+            studio device using its adjustable Kickstand. It offers 7th Gen Intel Core m3, i5, or i7 processors with up to
+            16 GB RAM and up to 1 TB SSD, making it suitable for everyday productivity and creative tasks. The 3:2
+            high-resolution display supports precise touch and pen input, while features like stereo speakers with Dolby
+            Audio, front and rear 1080p cameras, and an infrared Windows Hello camera support both media and secure sign-in.
+            Connectivity includes Wi-Fi, Bluetooth, and ports like USB 3.0, Mini DisplayPort, microSDXC, and Surface Connect,
+            with some models also offering LTE Advanced for mobile data, all in a lightweight, highly portable design.
+            
+            This is a "multi-instance" and "multi-host" instrument, meaning not a specific instrument but rather a type or model of
+            instrument that may be used many times across one or more missions and is not associated with any specific host.  Each
+            of these instruments are functionally identical, although they may have instance-specific calibration information.
+        </description>
+    </Instrument>
+</Product_Context>
