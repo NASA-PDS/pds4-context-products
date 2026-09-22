@@ -36,15 +36,7 @@
             <reference_type>investigation_to_instrument_host</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.artemis2</lid_reference>
-            <reference_type>investigation_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.saw</lid_reference>
-            <reference_type>investigation_to_instrument</reference_type>
-        </Internal_Reference>       
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.opnav</lid_reference>
+            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.cab</lid_reference>
             <reference_type>investigation_to_instrument</reference_type>
         </Internal_Reference>
         <Internal_Reference>
@@ -52,15 +44,27 @@
             <reference_type>investigation_to_instrument</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.cab</lid_reference>
+            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.opnav</lid_reference>
             <reference_type>investigation_to_instrument</reference_type>
         </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:artemis2_orion.saw</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>       
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.apple_iphone_17</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>            
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.artemis_voice_loop</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>            
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.microsoft_surface_pro_5</lid_reference> 
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>       
         <Internal_Reference>
             <lid_reference>urn:nasa:pds:context:instrument:multi-host.nikon_d5</lid_reference>
-            <reference_type>investigation_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:multi-host.onset_hobo_mx1101</lid_reference>
             <reference_type>investigation_to_instrument</reference_type>
         </Internal_Reference>
         <Internal_Reference>
@@ -68,12 +72,8 @@
             <reference_type>investigation_to_instrument</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:multi-host.microsoft_surface_pro_5</lid_reference> 
+            <lid_reference>urn:nasa:pds:context:instrument:multi-host.onset_hobo_mx1101</lid_reference>
             <reference_type>investigation_to_instrument</reference_type>
-        </Internal_Reference>       
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:multi-host.apple_iphone_17</lid_reference>
-            <reference_type>investigation_to_instrument</reference_type>            
         </Internal_Reference>
         <Internal_Reference>
             <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
