@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://pds.nasa.gov/pds4/pds/v1
+            https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd
+            http://pds.nasa.gov/pds4/ctli/v2 
+            https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument:clps_to_19d_bgl.radpc</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>CLPS Task Order 19D Radiation Tolerant Computer (RadPC)</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_title>RadPC</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-08-24</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.clps_to_19d_bgl</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <doi>10.2514/1.I010859</doi>
+            <reference_text>Christopher M. Major, Annie Bachman, Colter Barney, Skylar Tamke and Brock J. LaMeres, “RadPC: A 
+                Novel Single-Event Upset Mitigation Strategy for Field Programmable Gate Array–Based Space Computing”, 
+                Journal of Aerospace Information Systems, vol. 18, no. 5, May 2021, DOI: 10.2514/1.I010859.</reference_text>
+        </External_Reference>
+    </Reference_List>
+    <Instrument>
+        <name>CLPS Task Order 19D Radiation Tolerant Computer (RadPC)</name>
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Spacecraft Sensor</ctli:type>             
+            </ctli:Type_List>
+        </Type_List_Area>       
+        <description>
+            RadPC (Radiation Tolerant Portable Computer) is a radiation tolerant computing system designed to address the issue 
+            of space radiation threatening the integrity of computing hardware.  It uses a commercial off-the-shelf (COTS) 
+            Field Programmable Gate Array (FPGA) to implement a cost-effective, novel computer architecture for space missions. 
+            
+            The RadPC payload contains two separate experiments.  The first is the RadPC FPGA radiation tolerant computer 
+            experiment.  The second is a dosimeter experiment that collects information about the radiation environment that the 
+            RadPC computer is operating in.  Both experiments are designed to operate independently from each other (i.e., 
+            separate power and communication links).  There is also a thermal management system (TMS) within the payload to 
+            regulate the internal temperature of the experiments; however, it was never turned on during the 19-D mission due to 
+            the lander keeping the payload within its operating temperature.
+        </description>
+    </Instrument>
+</Product_Context>
