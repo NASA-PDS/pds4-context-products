@@ -10,7 +10,7 @@
         <product_class>Product_Collection</product_class>
         <Citation_Information>
             <publication_year>2026</publication_year>
-            <description>urn:nasa:pds:context:airborne:*</description>
+            <description>PDS4 Context Products for Airborne products merged into instrument hosts, e.g. BOPPS</description>
             <List_Author>
                 <Organization>
                     <organization_name>PDS Data Design Working Group (DDWG)</organization_name>
