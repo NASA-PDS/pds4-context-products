@@ -4,13 +4,13 @@
 <Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1         https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:instrument_host</logical_identifier>
-        <version_id>21.7</version_id>
+        <version_id>21.8</version_id>
         <title>PDS4 Context Products for Instrument Hosts, e.g. InSight spacecraft, Mars2020 spacecraft</title>
         <information_model_version>1.26.0.0</information_model_version>
         <product_class>Product_Collection</product_class>
         <Citation_Information>
             <publication_year>2026</publication_year>
-            <description>urn:nasa:pds:context:instrument_host:*</description>
+            <description>urn:nasa:pds:context:instrument_host:* context products</description>
             <List_Author>
                 <Organization>
                     <organization_name>PDS Data Design Working Group (DDWG)</organization_name>
@@ -23,6 +23,14 @@
             </List_Editor>
         </Citation_Information>
         <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-09-30</modification_date>
+                <version_id>21.8</version_id>
+                <description>added:
+  P,urn:nasa:pds:context:instrument_host:spacecraft.insight::2.2
+dropped:
+  P,urn:nasa:pds:context:instrument_host:spacecraft.insight::2.1</description>
+            </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2026-09-23</modification_date>
                 <version_id>21.7</version_id>
@@ -673,11 +681,11 @@ added:
     </Collection>
     <File_Area_Inventory>
         <File>
-            <file_name>collection_instrument_host_v21.7.csv</file_name>
-            <creation_date_time>2026-09-23T19:28:56Z</creation_date_time>
+            <file_name>collection_instrument_host_v21.8.csv</file_name>
+            <creation_date_time>2026-09-30T00:54:26Z</creation_date_time>
             <file_size unit="byte">7143</file_size>
             <records>116</records>
-            <md5_checksum>ac19f4c3f154e0e751a188a0184ad44b</md5_checksum>
+            <md5_checksum>3702afb64f477e254b1d585bb98630af</md5_checksum>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>

@@ -4,7 +4,7 @@
 <Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1         https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
     <Identification_Area>
         <logical_identifier>urn:esa:psa:context:instrument</logical_identifier>
-        <version_id>4.2</version_id>
+        <version_id>4.3</version_id>
         <title>PDS4 Context Products for ESA instruments, e.g. Rosetta ROSINA, Mars Express cameras</title>
         <information_model_version>1.26.0.0</information_model_version>
         <product_class>Product_Collection</product_class>
@@ -23,6 +23,13 @@
             </List_Editor>
         </Citation_Information>
         <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-09-30</modification_date>
+                <version_id>4.3</version_id>
+                <description>dropped:
+  P,urn:esa:psa:context:instrument:vex.mag::1.2
+  P,urn:esa:psa:context:instrument:vex.virtis::1.2</description>
+            </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2026-09-23</modification_date>
                 <version_id>4.2</version_id>
@@ -378,16 +385,16 @@ added:
     </Collection>
     <File_Area_Inventory>
         <File>
-            <file_name>collection_instrument_esa_v4.2.csv</file_name>
-            <creation_date_time>2026-01-07T02:39:11Z</creation_date_time>
-            <file_size unit="byte">3614</file_size>
-            <records>74</records>
-            <md5_checksum>ff35fc0d179f69cb00525849e4268173</md5_checksum>
+            <file_name>collection_instrument_esa_v4.3.csv</file_name>
+            <creation_date_time>2026-09-30T00:42:45Z</creation_date_time>
+            <file_size unit="byte">3517</file_size>
+            <records>72</records>
+            <md5_checksum>bd75b78feee949e5048e81315d310e70</md5_checksum>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>
             <parsing_standard_id>PDS DSV 1</parsing_standard_id>
-            <records>74</records>
+            <records>72</records>
             <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
             <field_delimiter>Comma</field_delimiter>
             <Record_Delimited>

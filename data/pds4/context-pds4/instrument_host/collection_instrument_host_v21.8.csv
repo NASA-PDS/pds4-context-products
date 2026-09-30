@@ -39,7 +39,7 @@ P,urn:nasa:pds:context:instrument_host:spacecraft.hay::2.1
 P,urn:nasa:pds:context:instrument_host:spacecraft.hst::1.4
 P,urn:nasa:pds:context:instrument_host:spacecraft.ice::1.3
 P,urn:nasa:pds:context:instrument_host:spacecraft.ingenuity::1.0
-P,urn:nasa:pds:context:instrument_host:spacecraft.insight::2.1
+P,urn:nasa:pds:context:instrument_host:spacecraft.insight::2.2
 P,urn:nasa:pds:context:instrument_host:spacecraft.iras::2.1
 P,urn:nasa:pds:context:instrument_host:spacecraft.jno::2.4
 P,urn:nasa:pds:context:instrument_host:spacecraft.kaguya::1.1

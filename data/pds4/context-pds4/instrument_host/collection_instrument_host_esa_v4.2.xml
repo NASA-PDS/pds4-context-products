@@ -3,14 +3,14 @@
     schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1         https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
     <Identification_Area>
-        <logical_identifier>urn:esa:psa:context:investigation</logical_identifier>
-        <version_id>1.3</version_id>
-        <title>PDS4 Context Products for ESA investigations, e.g. International Rosetta Mission, Mars Express mission</title>
+        <logical_identifier>urn:esa:psa:context:instrument_host</logical_identifier>
+        <version_id>4.2</version_id>
+        <title>PDS4 Context Products for ESA instrument hosts, e.g. Rosetta spacecraft, Mars Express</title>
         <information_model_version>1.26.0.0</information_model_version>
         <product_class>Product_Collection</product_class>
         <Citation_Information>
-            <publication_year>2025</publication_year>
-            <description>urn:ESA:PSA:context:investigation:* context products</description>
+            <publication_year>2026</publication_year>
+            <description>urn:ESA:PSA:context:instrument_host:* context products</description>
             <List_Author>
                 <Organization>
                     <organization_name>PDS Data Design Working Group (DDWG)</organization_name>
@@ -24,39 +24,54 @@
         </Citation_Information>
         <Modification_History>
             <Modification_Detail>
+                <modification_date>2026-09-30</modification_date>
+                <version_id>4.2</version_id>
+                <description>dropped:
+  P,urn:esa:psa:context:instrument_host:spacecraft.vex::1.1</description>
+            </Modification_Detail>
+            <Modification_Detail>
                 <modification_date>2026-09-23</modification_date>
-                <version_id>1.3</version_id>
+                <version_id>4.1</version_id>
                 <description>Changed IM to 1Q00; improved title and Citation_Information/description</description>
             </Modification_Detail>
             <Modification_Detail>
-                <modification_date>2025-07-26</modification_date>
-                <version_id>1.2</version_id>
+                <modification_date>2025-05-14</modification_date>
+                <version_id>4.0</version_id>
                 <description>
 added:
-  P,urn:esa:psa:context:investigation:mission.ulysses::1.2
+  P,urn:esa:psa:context:instrument_host:spacecraft.gio::1.1
+  P,urn:esa:psa:context:instrument_host:spacecraft.hp::1.1
+  P,urn:esa:psa:context:instrument_host:spacecraft.iue::1.1
+  P,urn:esa:psa:context:instrument_host:spacecraft.mex::1.1
+  P,urn:esa:psa:context:instrument_host:spacecraft.rl::1.2
+  P,urn:esa:psa:context:instrument_host:spacecraft.ro::1.1
+  P,urn:esa:psa:context:instrument_host:spacecraft.uly::1.2
+  P,urn:esa:psa:context:instrument_host:spacecraft.vex::1.1
 dropped:
-  P,urn:esa:psa:context:investigation:mission.ulysses::1.1</description>
+  P,urn:esa:psa:context:instrument_host:spacecraft.gio::1.0
+  P,urn:esa:psa:context:instrument_host:spacecraft.hp::1.0
+  P,urn:esa:psa:context:instrument_host:spacecraft.iue::1.0
+  P,urn:esa:psa:context:instrument_host:spacecraft.mex::1.0
+  P,urn:esa:psa:context:instrument_host:spacecraft.rl::1.0
+  P,urn:esa:psa:context:instrument_host:spacecraft.rl::1.1
+  P,urn:esa:psa:context:instrument_host:spacecraft.ro::1.0
+  P,urn:esa:psa:context:instrument_host:spacecraft.uly::1.0
+  P,urn:esa:psa:context:instrument_host:spacecraft.uly::1.1
+  P,urn:esa:psa:context:instrument_host:spacecraft.vex::1.0</description>
             </Modification_Detail>
             <Modification_Detail>
-                <modification_date>2025-05-14</modification_date>
-                <version_id>1.1</version_id>
+                <modification_date>2023-08-06</modification_date>
+                <version_id>3.0</version_id>
                 <description>
 added:
-  P,urn:esa:psa:context:investigation:mission.giotto::1.1
-  P,urn:esa:psa:context:investigation:mission.giotto_extended_mission::1.1
-  P,urn:esa:psa:context:investigation:mission.international_rosetta_mission::1.1
-  P,urn:esa:psa:context:investigation:mission.iue::1.1
-  P,urn:esa:psa:context:investigation:mission.mars_express::2.1
-  P,urn:esa:psa:context:investigation:mission.ulysses::1.1
-  P,urn:esa:psa:context:investigation:mission.venus_express::1.1
-dropped:
-  P,urn:esa:psa:context:investigation:mission.giotto::1.0
-  P,urn:esa:psa:context:investigation:mission.giotto_extended_mission::1.0
-  P,urn:esa:psa:context:investigation:mission.international_rosetta_mission::1.0
-  P,urn:esa:psa:context:investigation:mission.iue::1.0
-  P,urn:esa:psa:context:investigation:mission.mars_express::1.0
-  P,urn:esa:psa:context:investigation:mission.ulysses::1.0
-  P,urn:esa:psa:context:investigation:mission.venus_express::1.0</description>
+  P,urn:esa:psa:context:instrument_host:spacecraft.uly::1.1</description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2021-06-21</modification_date>
+                <version_id>2.0</version_id>
+                <description>
+added:
+  P,urn:esa:psa:context:instrument_host:spacecraft.rl::1.1</description>
             </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2021-03-02</modification_date>
@@ -76,11 +91,11 @@ dropped:
     </Collection>
     <File_Area_Inventory>
         <File>
-            <file_name>collection_investigation_esa_v1.3.csv</file_name>
-            <creation_date_time>2025-07-26T10:50:41Z</creation_date_time>
-            <file_size unit="byte">450</file_size>
+            <file_name>collection_instrument_host_esa_v4.2.csv</file_name>
+            <creation_date_time>2026-09-30T00:42:45Z</creation_date_time>
+            <file_size unit="byte">410</file_size>
             <records>7</records>
-            <md5_checksum>85ab50bf4eb10062b688767dd81e8a63</md5_checksum>
+            <md5_checksum>34fc3c66bc2a93f97a5d0d9db7708149</md5_checksum>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>
@@ -91,7 +106,7 @@ dropped:
             <Record_Delimited>
                 <fields>2</fields>
                 <groups>0</groups>
-                <maximum_record_length unit="byte">80</maximum_record_length>
+                <maximum_record_length unit="byte">59</maximum_record_length>
                 <Field_Delimited>
                     <name>Member Status</name>
                     <field_number>1</field_number>
