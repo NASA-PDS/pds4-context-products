@@ -69,6 +69,4 @@ P,urn:esa:psa:context:instrument:uly.udds::1.2
 P,urn:esa:psa:context:instrument:uly.urap::1.2
 P,urn:esa:psa:context:instrument:uly.vhm-fgm::1.2
 P,urn:esa:psa:context:instrument:vex.aspera4-els::1.2
-P,urn:esa:psa:context:instrument:vex.mag::1.2
 P,urn:esa:psa:context:instrument:vex.rss::1.2
-P,urn:esa:psa:context:instrument:vex.virtis::1.2

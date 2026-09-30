@@ -1,11 +1,11 @@
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" 
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" 
  schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:node:node.geoscience</logical_identifier>
-        <version_id>2.0</version_id>
+        <version_id>2.1</version_id>
         <title>PDS Geosciences Node</title>
-        <information_model_version>1.22.0.0</information_model_version>
+        <information_model_version>1.26.0.0</information_model_version>
         <product_class>Product_Context</product_class>
         <Alias_List>
             <Alias>
@@ -18,6 +18,11 @@
             </Alias>
         </Alias_List>
         <Modification_History>
+            <Modification_Detail>
+                <modification_date>2026-09-30</modification_date>
+                <version_id>2.1</version_id>
+                <description>Changed IM to 1Q00. Changed each lidvid_reference to lid_reference</description>
+            </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2024-09-23</modification_date>
                 <version_id>2.0</version_id>
@@ -37,83 +42,83 @@
     </Identification_Area>
     <Reference_List>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.paul_byrne::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.paul_byrne</lid_reference>
             <reference_type>node_to_manager</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.thomas_stein::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.thomas_stein</lid_reference>
             <reference_type>node_to_operator</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.jennifer_ward::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.jennifer_ward</lid_reference>
             <reference_type>node_to_data_archivist</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.madison_touran::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.madison_touran</lid_reference>
             <reference_type>node_to_data_archivist</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.abigail_knight::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.abigail_knight</lid_reference>
             <reference_type>node_to_data_archivist</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.scott_vanbommel::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.scott_vanbommel</lid_reference>
             <reference_type>node_to_data_archivist</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.lars_arvidson::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.lars_arvidson</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.paul_byrne::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.paul_byrne</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.john_christian::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.john_christian</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.abigail_knight::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.abigail_knight</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.daniel_politte::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.daniel_politte</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.ethan_schaefer::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.ethan_schaefer</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.daniel_scholes::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.daniel_scholes</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.thomas_stein::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.thomas_stein</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.madison_touran::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.madison_touran</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.scott_vanbommel::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.scott_vanbommel</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.june_wang::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.june_wang</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.jennifer_ward::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.jennifer_ward</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:personnel:personnel.feng_zhou::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:personnel:personnel.feng_zhou</lid_reference>
             <reference_type>node_to_personnel</reference_type>
         </Internal_Reference>
         <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:agency:agency.nasa::1.0</lidvid_reference>
+            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
             <reference_type>node_to_agency</reference_type>
         </Internal_Reference>
     </Reference_List>
