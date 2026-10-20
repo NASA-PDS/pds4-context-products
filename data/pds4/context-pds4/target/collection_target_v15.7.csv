@@ -666,10 +666,10 @@ P,urn:nasa:pds:context:target:satellite.134340_pluto.kerberos::1.2
 P,urn:nasa:pds:context:target:satellite.134340_pluto.nix::1.2
 P,urn:nasa:pds:context:target:satellite.134340_pluto.styx::1.2
 P,urn:nasa:pds:context:target:satellite.152830_dinkinesh.selam::1.1
-P,urn:nasa:pds:context:target:satellite.243_ida.dactyl::1.2
+P,urn:nasa:pds:context:target:satellite.243_ida.dactyl::1.3
 P,urn:nasa:pds:context:target:satellite.3548_eurybates.queta::1.1
 P,urn:nasa:pds:context:target:satellite.617_patroclus.menoetius::1.1
-P,urn:nasa:pds:context:target:satellite.65803_didymos.dimorphos::1.1
+P,urn:nasa:pds:context:target:satellite.65803_didymos.dimorphos::1.2
 P,urn:nasa:pds:context:target:satellite.earth.moon::1.2
 P,urn:nasa:pds:context:target:satellite.jupiter.adrastea::1.2
 P,urn:nasa:pds:context:target:satellite.jupiter.aitne::1.2
