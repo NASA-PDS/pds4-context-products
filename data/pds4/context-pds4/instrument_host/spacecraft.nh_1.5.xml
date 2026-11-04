@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1P00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.nh</logical_identifier>
+    <version_id>1.5</version_id>
+    <title>New Horizons (NH) Spacecraft</title>
+    <information_model_version>1.25.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias><alternate_title>NEW HORIZONS</alternate_title></Alias>
+      <Alias><alternate_title>New Horizons Spacecraft</alternate_title></Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-11-04</modification_date>
+        <version_id>1.5</version_id>
+        <description>Removed leading "The" from name and title.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2026-04-28</modification_date>
+        <version_id>1.4</version_id>
+        <description>Updated DD to 1P00. Added alias New Horizons Spacecraft</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.3</version_id>
+        <description>Updated schema version. Description updated.
+                    Updated by SBN:Tilden Barnes during PDS migration of the New Horizons data archive.
+                    (1) NIXED: Removed all target Internal_References since they do not directly apply to the spacecraft.
+                    (2) Added DOI information to external references where found.
+                    (3) Summarized Instrument_Host:description and moved/edited the rest into a created overview document that gives more breadth.
+                    (4) Removed most external references since they are more relevant to the overview document in (3).  
+                    (5) Added internal context references to investigation:mission.new_horizons_kem1 and investigation:mission.new_horizons_kem2
+                    (6) Updated to latest IM.
+        </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.2</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Added lid_reference to u:n:p:c:instrument:nh.rex
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
+                    Per "Guide toPDS4 Context Products" v1.3,
+                    - changed all lidvid_reference to lid_reference
+                    - changed target LIDs to new formation rule
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem2</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem1</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.alice</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.leisa</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.lorri</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.mvic</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.pepssi</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!-- SBN-TB:  Waiting on addition to standards to add this Instrument Package connection. Text below will need to be updated.-->
+    <!-- <Internal_Reference> -->
+    <!-- <lid_reference>urn:nasa:pds:context:other:nh.ralph</lid_reference> -->
+    <!-- <reference_type>context_to_associate</reference_type>  -->
+    <!-- <comment>Ralph is the instrument package for LEISA and MVIC instruments</comment> -->
+    <!-- </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.rex</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.sdc</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:nh.spice</lid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.swap</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:calibrator.calibration</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:dust.dust</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:dwarf_planet.134340_pluto</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <!--notyet        <Internal_Reference> -->
+    <!--notyet            <lid_reference>urn:nasa:pds:context:target:ring.j_rings</lid_reference> -->
+    <!--notyet            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--notyet        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.callisto</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.134340_pluto.charon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.ganymede</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.134340_pluto.hydra</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.io</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.callirrhoe</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.europa</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.himalia</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.elara</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.134340_pluto.kerberos</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.134340_pluto.nix</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.134340_pluto.styx</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:nh_documents:mission:nh_sc_overview</lid_reference>
+      <reference_type>instrument_host_to_document</reference_type>
+      <comment>Overview document for the New Horizons spacecraft.</comment>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1007/s11214-008-9374-8</doi>
+      <reference_text>
+                   Fountain, G.H., D.Y. Kusnierkiewicz, C.B. Hersman, T.S. Herder, T.B. Coughlin,
+                   W.C. Gibson, D.A. Clancy, C.C. DeBoy, T.A. Hill, J.D. Kinnison, D.S. Mehoke,
+                   G.K. Ottman, G.D. Rogers, S.A. Stern, J.M. Stratton, S.R. Vernon, and S.P.
+                   Williams, The New Horizons Spacecraft, Space Sci. Rev., Volume 140, Numbers
+                   1-4, pp. 23-47, 2008.  https://doi.org/10.1007/s11214-008-9374-8
+            </reference_text>
+      <description>reference.FOUNTAINETAL2008</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   NASA, Pluto Kuiper Belt Mission Announcement of Opportunity. AO 01-OSS-01, 2001.
+            </reference_text>
+      <description>reference.NASAAO2001</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Stern, S.A., and A. Cheng, NASA Plans Pluto-Kuiper Belt Mission. EOS, 83, 101,
+                   2002.
+            </reference_text>
+      <description>reference.STERN-CHENG2002</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Stern, A., and J. Spencer, New Horizons: The first reconnaissance mission to
+                   bodies in the Kuiper Belt, Proceedings of the First Decadal Review of the
+                   Edgeworth-Kuiper Belt, A. Davies Ed., ISBN 1-4020-1781-2, reprinted from Earth
+                   Moon and Planets 92, 2004.
+            </reference_text>
+      <description>reference.STERN-SPENCER2004A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Stern, S.A., D.C. Slater, J. Scherrer, J. Stone, G. Dirks, M. Versteeg, M.
+                   Davis, G.R. Gladstone, J.W. Parker, L.A. Young, and O.H.W. Siegmund, ALICE: The
+                   Ultraviolet Imaging Spectrograph aboard the New Horizons Pluto-Kuiper Belt
+                   Mission, Space Sci. Rev., Volume 140, Numbers 1-4, pp. 155-187, 2008.
+            </reference_text>
+      <description>reference.STERNETAL2008</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>New Horizons (NH) Spacecraft</name>
+    <type>Spacecraft</type>
+    <naif_host_id>NH</naif_host_id>
+    <description>The main body of the New Horizons spacecraft is roughly triangular, and about 0.76m deep, with the tub containing the radioisotope thermoelectric generator extending from the apex. The 2.1m radio dish is attached to the front, flat side of the triangular box. The spacecraft is roughly 2.5 meters across and its mass was 465 kg including propellant at launch. The spacecraft has both spin-stabilized and three-axis stabilized modes, the latter used for science operations. The seven instruments comprising the science payload are mounted on the exterior of the main body.</description>
+  </Instrument_Host>
+</Product_Context>
