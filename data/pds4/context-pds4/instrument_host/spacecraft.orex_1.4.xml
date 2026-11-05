@@ -18,12 +18,15 @@
       <Alias>
         <alternate_title>Origins, Spectral Interpreation, Resource Identification, Security, Regolith Explorer (OSIRIS-REx) Spacecraft</alternate_title>
       </Alias>
+      <Alias>
+        <alternate_title>The Origins, Spectral Interpretation, Resource Identification, Security, Regolith Explorer (OSIRIS-REx) Spacecraft</alternate_title>
+      </Alias>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-11-04</modification_date>
         <version_id>1.4</version_id>
-        <description>Removed leading "The" from name and title.</description>
+        <description>Removed leading "The" from name and title. Added previous title as alternate_title.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-12-18</modification_date>

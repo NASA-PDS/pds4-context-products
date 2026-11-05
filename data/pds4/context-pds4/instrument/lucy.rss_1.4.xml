@@ -11,12 +11,18 @@
     <Alias_List>
       <Alias><alternate_title>Lucy Radio Science</alternate_title></Alias>
       <Alias><alternate_title>Lucy Radio Science Subsystem</alternate_title></Alias>
+      <Alias>
+        <alternate_title>The Lucy Radio Science Investigation and Telecom Subsystem aboard the Lucy spacecraft</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_title>The Lucy Radio Sceince Investigation and Telecom Subsystem aboard the Lucy spacecraft</alternate_title>
+      </Alias>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-11-04</modification_date>
         <version_id>1.4</version_id>
-        <description>Removed leading "The" from name and title.</description>
+        <description>Removed leading "The" from name and title. Added previous title and name as alternate_title.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2026-09-14</modification_date>

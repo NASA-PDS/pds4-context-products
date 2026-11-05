@@ -19,12 +19,15 @@
       <Alias>
         <alternate_title>ION MASS SPECTROMETER</alternate_title>
       </Alias>
+      <Alias>
+        <alternate_title>The Ion Mass Spectrometer (IMS) for Giotto</alternate_title>
+      </Alias>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-11-04</modification_date>
         <version_id>1.3</version_id>
-        <description>Removed leading "The" from name and title.</description>
+        <description>Removed leading "The" from name and title. Added previous title as alternate_title.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2025-12-24</modification_date>

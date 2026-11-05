@@ -8,11 +8,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <title>Mineral Spectroscopy Laboratory at Mount Holyoke College</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>The Mineral Spectroscopy Laboratory at Mount Holyoke College</alternate_title>
+      </Alias>
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-11-04</modification_date>
         <version_id>1.1</version_id>
-        <description>Removed leading "The" from name and title.</description>
+        <description>Removed leading "The" from name and title. Added previous title as alternate_title.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2025-01-23</modification_date>

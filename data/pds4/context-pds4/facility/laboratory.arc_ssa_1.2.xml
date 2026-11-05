@@ -7,11 +7,16 @@
     <title>ARC/SSA Astrochemistry Lab</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>The ARC/SSA Astrochemistry Lab</alternate_title>
+      </Alias>
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-11-04</modification_date>
         <version_id>1.2</version_id>
-        <description>Removed leading "The" from name and title.</description>
+        <description>Removed leading "The" from name and title. Added previous title as alternate_title.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2025-01-07</modification_date>

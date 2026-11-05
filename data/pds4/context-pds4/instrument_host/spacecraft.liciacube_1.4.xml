@@ -9,14 +9,14 @@
     <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
-        <alternate_title>Light Italian CubeSat for Imaging of Asteroids (LICIACube) Spacecraft</alternate_title>
+        <alternate_title>The Light Italian CubeSat for Imaging of Asteroids (LICIACube) Spacecraft</alternate_title>
       </Alias>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-11-04</modification_date>
         <version_id>1.4</version_id>
-        <description>Removed leading "The" from name and title.</description>
+        <description>Removed leading "The" from name and title. Added previous title as alternate_title.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2026-07-07</modification_date>

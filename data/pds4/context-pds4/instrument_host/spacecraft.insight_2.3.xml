@@ -18,12 +18,15 @@
       <Alias>
         <alternate_title>InSight Mars Lander Spacecraft</alternate_title>
       </Alias>
+      <Alias>
+        <alternate_title>The InSight Mars Lander</alternate_title>
+      </Alias>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-11-04</modification_date>
         <version_id>2.3</version_id>
-        <description>Removed leading "The" from name and title.</description>
+        <description>Removed leading "The" from name and title. Added previous title as alternate_title.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2026-09-30</modification_date>

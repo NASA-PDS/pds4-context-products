@@ -9,14 +9,14 @@
     <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
-        <alternate_title>Double Asteroid Redirection Test (DART) Mission</alternate_title>
+        <alternate_title>The Double Asteroid Redirection Test (DART) Mission</alternate_title>
       </Alias>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2026-11-04</modification_date>
         <version_id>1.2</version_id>
-        <description>Removed leading "The" from title.</description>
+        <description>Removed leading "The" from title. Added previous title as alternate_title.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-12-29</modification_date>
