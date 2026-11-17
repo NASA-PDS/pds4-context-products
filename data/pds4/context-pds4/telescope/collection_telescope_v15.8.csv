@@ -1,4 +1,4 @@
-P,urn:nasa:pds:context:telescope:amos.aeos::1.2
+P,urn:nasa:pds:context:telescope:amos.aeos::1.3
 P,urn:nasa:pds:context:telescope:amos.geodss::1.1
 P,urn:nasa:pds:context:telescope:amos.msss1m2::1.1
 P,urn:nasa:pds:context:telescope:apache_point.arc3m5::1.2
@@ -150,6 +150,7 @@ P,urn:nasa:pds:context:telescope:steward-kittpeak.spacewatch_1m8::1.2
 P,urn:nasa:pds:context:telescope:stockport.jubilee::1.2
 P,urn:nasa:pds:context:telescope:table_mountain.astro_mechanics0m61::1.1
 P,urn:nasa:pds:context:telescope:teide.carlossanchez_1m55::1.2
+P,urn:nasa:pds:context:telescope:tortugas_mountain.boller-chivens_0m61::1.0
 P,urn:nasa:pds:context:telescope:u_alabama.fecker0m25::1.1
 P,urn:nasa:pds:context:telescope:usuda.dss48_64m::1.2
 P,urn:nasa:pds:context:telescope:uwo_meteor_radar.cmor::1.1
