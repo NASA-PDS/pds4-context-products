@@ -622,6 +622,7 @@ P,urn:nasa:pds:context:target:laboratory_analog.saturn::1.1
 P,urn:nasa:pds:context:target:laboratory_analog.trappist-1e::1.0
 P,urn:nasa:pds:context:target:laboratory_analog.venus::1.1
 P,urn:nasa:pds:context:target:magnetic_field.interplanetary_magnetic_field::1.1
+P,urn:nasa:pds:context:target:nebula.m_1::1.0
 P,urn:nasa:pds:context:target:planet.earth::1.4
 P,urn:nasa:pds:context:target:planet.jupiter::1.3
 P,urn:nasa:pds:context:target:planet.mars::1.3
