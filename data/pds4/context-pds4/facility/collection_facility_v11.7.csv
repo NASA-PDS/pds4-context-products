@@ -32,7 +32,7 @@ P,urn:nasa:pds:context:facility:laboratory.tu-tewt::1.1
 P,urn:nasa:pds:context:facility:laboratory.ucberkeley-rfs::1.1
 P,urn:nasa:pds:context:facility:laboratory.usda-ars-lubbock::1.1
 P,urn:nasa:pds:context:facility:laboratory.utsa_kamc::1.1
-P,urn:nasa:pds:context:facility:observatory.amos::1.1
+P,urn:nasa:pds:context:facility:observatory.amos::1.2
 P,urn:nasa:pds:context:facility:observatory.apache_point::1.3
 P,urn:nasa:pds:context:facility:observatory.arecibo::1.1
 P,urn:nasa:pds:context:facility:observatory.asiago::1.1
@@ -102,6 +102,7 @@ P,urn:nasa:pds:context:facility:observatory.steward-kittpeak::1.3
 P,urn:nasa:pds:context:facility:observatory.stockport::1.1
 P,urn:nasa:pds:context:facility:observatory.table_mountain::1.1
 P,urn:nasa:pds:context:facility:observatory.teide::1.2
+P,urn:nasa:pds:context:facility:observatory.tortugas_mountain::1.0
 P,urn:nasa:pds:context:facility:observatory.u_alabama::1.1
 P,urn:nasa:pds:context:facility:observatory.uwo_meteor_radar::1.1
 P,urn:nasa:pds:context:facility:observatory.valle_d_aosta::1.1
