@@ -27,6 +27,7 @@
                 <modification_date>2026-11-17</modification_date>
                 <version_id>22.9</version_id>
                 <description>added:
+  P,urn:nasa:pds:context:investigation:individual.merigold::1.0
   P,urn:nasa:pds:context:investigation:observing_campaign.amos-aeos_atm-jup-mars-sat::1.0
   P,urn:nasa:pds:context:investigation:observing_campaign.tmo_monitor-jup-sat::1.0</description>
             </Modification_Detail>
@@ -711,14 +712,14 @@ added:
         <File>
             <file_name>collection_investigation_v22.9.csv</file_name>
             <creation_date_time>2026-11-17T13:29:50Z</creation_date_time>
-            <file_size unit="byte">9577</file_size>
-            <records>138</records>
-            <md5_checksum>312ac83fb4cd6c0fb3fe1a4080388703</md5_checksum>
+            <file_size unit="byte">9640</file_size>
+            <records>139</records>
+            <md5_checksum>2551354c2af8d244b3af9101de95a0b0</md5_checksum>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>
             <parsing_standard_id>PDS DSV 1</parsing_standard_id>
-            <records>138</records>
+            <records>139</records>
             <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
             <field_delimiter>Comma</field_delimiter>
             <Record_Delimited>
