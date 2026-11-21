@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:nebula.m_1</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Crab Nebula</title>
+    <information_model_version>1.26.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias><alternate_title>M1</alternate_title></Alias>
+      <Alias><alternate_title>Messier 1</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>NGC 1952</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Taurus A</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Sh2-244</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>M 1 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>3A 0531+219 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2AGL J0534+2205 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>AJG 1 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ARGO J0535+2203 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2C 481 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>3C 144</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>3C 144.0</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>4C 21.19</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>3CR 144</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CTA 36 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CTB 18 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Cul 0531+21 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Cul 0531+219 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>DA 179 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>DB 38 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2E 1309</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2E 0531.5+2159 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>eHWC J0534+220 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>1ES 0532+21.5 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>3FGL J0534.5+2201i </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>4FGL J0534.5+2201i </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>3FHL J0534.5+2201 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GRS G184.60 -05.80 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>1H 0531+219 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>H 0534+21 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>H 0531+219 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2HWC J0534+220 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>3HWC J0534+220 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IRAS 05314+2200</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>LBN 833 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>LBN 184.62-05.65 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>1M 0531+219 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Mills 05+2A </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NAME CRAB NEB </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NAME Crab </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NAME Crab Nebula </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NAME Tau A </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NAME Taurus A </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NGC 1952</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NRAO 214 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NRL 2 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NVSS J053428+220202</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PBC J0534.5+2201 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PCCS2 030 G184.54-05.78 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PKS 0531+219</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>1RXS J053431.2+220218</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SH 2-244 </alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SIM 0531+21.0</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SNR G184.6-05.8</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SRGA J053431.8+220103</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SWIFT J0534.6+2204</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SWIFT J0534.5+2200</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TeV J0534+220</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2U 0531+22</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>3U 0531+21</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>4U 0531+21</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>VRO 21.05.01</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>W 9</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>X Tau X-1</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>X Tau XR-1</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>BM83 X0531+219</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>DGW65 25</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PT56 5 </alternate_title></Alias>  <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2026-11-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From https://github.com/NASA-PDS/pds4-context-products/issues/141, issued by dcoia
+        </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Crab Nebula</name>
+    <type>Nebula</type>  <!--actually a supernova remnant, but Matt Tiscareno agrees that we should skip tight categorization-->
+    <description>
+Based on the SIMBAD Astronomical Database
+Right Ascension, ICRS coord, ep=J2000: 05 hours 34 minutes 31.8 seconds
+Declination, ICRS coord, ep=J2000: +22 degrees 01 minutes 03 seconds
+    </description>
+  </Target>
+</Product_Context>

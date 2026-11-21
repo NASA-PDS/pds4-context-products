@@ -2,6 +2,7 @@ P,urn:nasa:pds:context:instrument:acc.maven::1.2
 P,urn:nasa:pds:context:instrument:accel.mro::1.2
 P,urn:nasa:pds:context:instrument:accel.msl::1.2
 P,urn:nasa:pds:context:instrument:amica.hay::2.3
+P,urn:nasa:pds:context:instrument:amos.aeos.aovis::1.0
 P,urn:nasa:pds:context:instrument:amos.neat_maui_camera::1.4
 P,urn:nasa:pds:context:instrument:apache_point.arc3m5.agile::1.4
 P,urn:nasa:pds:context:instrument:apache_point.sdss2m5.sdss_photometric::1.4
@@ -659,6 +660,7 @@ P,urn:nasa:pds:context:instrument:tega.phx::1.2
 P,urn:nasa:pds:context:instrument:telescope.birc.sto::1.3
 P,urn:nasa:pds:context:instrument:tg.a17l::1.3
 P,urn:nasa:pds:context:instrument:tlp.lcross::1.2
+P,urn:nasa:pds:context:instrument:tortugas_mountain.boller-chivens_0m61.ccd::1.0
 P,urn:nasa:pds:context:instrument:trd.p10::1.2
 P,urn:nasa:pds:context:instrument:trd.p11::1.2
 P,urn:nasa:pds:context:instrument:ts.phb2::1.3
